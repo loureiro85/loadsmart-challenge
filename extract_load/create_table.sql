@@ -6,10 +6,9 @@ CREATE TABLE external.us_cities(
   county varchar(50),
   latitude decimal(8, 6),
   longitude decimal(9, 6),
-  _loaded_at timestamp DEFAULT CURRENT_TIMESTAMP
+  _loaded_at timestamp DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY key(id)
 );
-
-DROP TABLE internal.data_challenge;
 
 CREATE TABLE internal.data_challenge(
   loadsmart_id integer,
@@ -42,5 +41,6 @@ CREATE TABLE internal.data_challenge(
   load_booked_autonomously boolean,
   load_sourced_autonomously boolean,
   load_was_cancelled boolean,
-  _loaded_at timestamp DEFAULT CURRENT_TIMESTAMP
+  _loaded_at timestamp DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY key(loadsmart_id)
 );
