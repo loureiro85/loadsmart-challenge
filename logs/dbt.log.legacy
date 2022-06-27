@@ -430,3 +430,745 @@ Error encountered in /usr/src/develop/user-95081/environment-99264/repository-79
 2022-06-27 00:03:53.734186 (Thread-15): handling status request
 2022-06-27 00:03:53.734937 (Thread-15): 00:03:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac1c2760>]}
 2022-06-27 00:03:53.735799 (Thread-15): sending response (<Response 15538 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:03:55.698752 (Thread-16): 00:03:55  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 00:03:55.698930 (Thread-16): 00:03:55  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 00:03:55.703597 (Thread-16): 00:03:55  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac0dac10>]}
+2022-06-27 00:03:56.619644 (Thread-17): handling status request
+2022-06-27 00:03:56.620009 (Thread-17): 00:03:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2ecc24f460>]}
+2022-06-27 00:03:56.620505 (Thread-17): sending response (<Response 1241 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:03:56.700971 (Thread-18): handling status request
+2022-06-27 00:03:56.701230 (Thread-18): 00:03:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac0d4f10>]}
+2022-06-27 00:03:56.701646 (Thread-18): sending response (<Response 1241 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:18.483691 (Thread-19): handling status request
+2022-06-27 00:04:18.484033 (Thread-19): 00:04:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac0d4bb0>]}
+2022-06-27 00:04:18.484504 (Thread-19): sending response (<Response 1219 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:18.543226 (Thread-20): handling list request
+2022-06-27 00:04:18.543533 (Thread-20): 00:04:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac1964c0>]}
+2022-06-27 00:04:18.574250 (Thread-20): 00:04:18  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac179b50>]}
+2022-06-27 00:04:18.574518 (Thread-20): 00:04:18  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-06-27 00:04:18.578153 (Thread-20): sending response (<Response 5093 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:26.780635 (Thread-21): handling ps request
+2022-06-27 00:04:26.780974 (Thread-21): 00:04:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac1961f0>]}
+2022-06-27 00:04:26.781500 (Thread-21): sending response (<Response 394 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:26.849114 (Thread-22): handling status request
+2022-06-27 00:04:26.849441 (Thread-22): 00:04:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac1963d0>]}
+2022-06-27 00:04:26.849890 (Thread-22): sending response (<Response 1241 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:26.958158 (Thread-23): handling status request
+2022-06-27 00:04:26.958485 (Thread-23): 00:04:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac1960a0>]}
+2022-06-27 00:04:26.958929 (Thread-23): sending response (<Response 1241 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:26.976201 (Thread-24): handling status request
+2022-06-27 00:04:26.976463 (Thread-24): 00:04:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac0daa90>]}
+2022-06-27 00:04:26.976807 (Thread-24): sending response (<Response 1241 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:28.638217 (Thread-25): handling status request
+2022-06-27 00:04:28.638608 (Thread-25): 00:04:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2ecc24f190>]}
+2022-06-27 00:04:28.639059 (Thread-25): sending response (<Response 1219 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:28.645375 (Thread-26): handling list request
+2022-06-27 00:04:28.645622 (Thread-26): 00:04:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac0daac0>]}
+2022-06-27 00:04:28.676941 (Thread-26): 00:04:28  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac0dc8e0>]}
+2022-06-27 00:04:28.677233 (Thread-26): 00:04:28  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-06-27 00:04:28.682332 (Thread-26): sending response (<Response 5093 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:04:29.034217 (Thread-27): handling status request
+2022-06-27 00:04:29.034576 (Thread-27): 00:04:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'c6e1fee4-ba81-4407-b1fa-60734269c020', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2eac081160>]}
+2022-06-27 00:04:29.035049 (Thread-27): sending response (<Response 1241 bytes [200 OK]>) to 10.0.18.132
+2022-06-27 00:06:34.404295 (MainThread): Running with dbt=1.0.8
+2022-06-27 00:06:34.502104 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-06-27 00:06:34.508635 (MainThread): Tracking: tracking
+2022-06-27 00:06:34.529335 (MainThread): 00:06:34  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a8830b760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a829ba2b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a829ba310>]}
+2022-06-27 00:06:34.529727 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2022-06-27 00:06:34.530106 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-06-27 00:06:34.530304 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-06-27 00:06:34.574634 (Thread-12): 00:06:34  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 00:06:34.574839 (Thread-12): 00:06:34  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 00:06:34.580765 (Thread-12): 00:06:34  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58fc8ee0>]}
+2022-06-27 00:06:35.538781 (Thread-13): handling ps request
+2022-06-27 00:06:35.539271 (Thread-13): 00:06:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82996430>]}
+2022-06-27 00:06:35.539808 (Thread-13): sending response (<Response 105 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:06:35.617461 (Thread-14): handling status request
+2022-06-27 00:06:35.617898 (Thread-14): 00:06:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82996400>]}
+2022-06-27 00:06:35.618474 (Thread-14): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:06:35.754922 (Thread-15): handling status request
+2022-06-27 00:06:35.755359 (Thread-15): 00:06:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a590345e0>]}
+2022-06-27 00:06:35.755820 (Thread-15): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:06:35.781594 (Thread-16): handling status request
+2022-06-27 00:06:35.781947 (Thread-16): 00:06:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82939f40>]}
+2022-06-27 00:06:35.782394 (Thread-16): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:06:38.003514 (Thread-17): handling status request
+2022-06-27 00:06:38.003916 (Thread-17): 00:06:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82939c70>]}
+2022-06-27 00:06:38.004359 (Thread-17): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:07:18.249386 (Thread-18): 00:07:18  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 00:07:18.250691 (Thread-18): 00:07:18  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 00:07:18.256301 (Thread-18): 00:07:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58fc4850>]}
+2022-06-27 00:07:19.067982 (Thread-19): handling status request
+2022-06-27 00:07:19.068425 (Thread-19): 00:07:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5a739f10>]}
+2022-06-27 00:07:19.068900 (Thread-19): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:07:19.261056 (Thread-20): handling status request
+2022-06-27 00:07:19.261465 (Thread-20): 00:07:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a829bae80>]}
+2022-06-27 00:07:19.261927 (Thread-20): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:07:48.653346 (Thread-21): 00:07:48  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 00:07:48.654376 (Thread-21): 00:07:48  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 00:07:48.659171 (Thread-21): 00:07:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5901ca00>]}
+2022-06-27 00:07:49.514405 (Thread-22): handling status request
+2022-06-27 00:07:49.514803 (Thread-22): 00:07:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58fd5700>]}
+2022-06-27 00:07:49.521664 (Thread-22): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:07:49.579341 (Thread-23): handling status request
+2022-06-27 00:07:49.579679 (Thread-23): 00:07:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58fd5100>]}
+2022-06-27 00:07:49.580108 (Thread-23): sending response (<Response 1241 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:08:26.536738 (Thread-24): 00:08:26  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-06-27 00:08:26.537974 (Thread-24): 00:08:26  Partial parsing: added file: loadsmart_challenge://models/staging/us_cities/src_us_cities.yml
+2022-06-27 00:08:26.581209 (Thread-24): 00:08:26  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ea84c0>]}
+2022-06-27 00:08:27.598405 (Thread-25): handling status request
+2022-06-27 00:08:27.598856 (Thread-25): 00:08:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58fc6910>]}
+2022-06-27 00:08:27.599392 (Thread-25): sending response (<Response 1275 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:08:28.007072 (Thread-26): handling status request
+2022-06-27 00:08:28.007549 (Thread-26): 00:08:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58fc6af0>]}
+2022-06-27 00:08:28.008014 (Thread-26): sending response (<Response 1275 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:16:50.988103 (Thread-27): 00:16:50  Partial parsing enabled: 3 files deleted, 0 files added, 0 files changed.
+2022-06-27 00:16:50.989466 (Thread-27): 00:16:50  Partial parsing: deleted file: loadsmart_challenge://models/example/my_first_dbt_model.sql
+2022-06-27 00:16:50.989605 (Thread-27): 00:16:50  Partial parsing: deleted file: loadsmart_challenge://models/example/my_second_dbt_model.sql
+2022-06-27 00:16:51.026362 (Thread-27): 00:16:51  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:16:51.031251 (Thread-27): 00:16:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f27a30>]}
+2022-06-27 00:16:51.780752 (Thread-28): handling status request
+2022-06-27 00:16:51.781165 (Thread-28): 00:16:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58edc7f0>]}
+2022-06-27 00:16:51.781666 (Thread-28): sending response (<Response 2049 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:16:51.829209 (Thread-29): handling status request
+2022-06-27 00:16:51.829615 (Thread-29): 00:16:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a590342b0>]}
+2022-06-27 00:16:51.830093 (Thread-29): sending response (<Response 2049 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:17:19.093721 (Thread-30): 00:17:19  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-06-27 00:17:19.094024 (Thread-30): 00:17:19  Partial parsing: added file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:17:19.105966 (Thread-30): 00:17:19  1699: static parser successfully parsed staging/us_cities/src_us_cities.sql
+2022-06-27 00:17:19.149234 (Thread-30): 00:17:19  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:17:19.153846 (Thread-30): 00:17:19  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e30820>]}
+2022-06-27 00:17:19.982967 (Thread-31): handling status request
+2022-06-27 00:17:19.983396 (Thread-31): 00:17:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f320a0>]}
+2022-06-27 00:17:19.983893 (Thread-31): sending response (<Response 2014 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:17:19.990898 (Thread-32): handling list request
+2022-06-27 00:17:19.991176 (Thread-32): 00:17:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f31d60>]}
+2022-06-27 00:17:20.008968 (Thread-32): 00:17:20  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ea1df0>]}
+2022-06-27 00:17:20.009275 (Thread-32): 00:17:20  Found 1 model, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-06-27 00:17:20.010044 (Thread-32): 00:17:20  The selection criterion '+models/staging/us_cities/src_us_cities.sql+' does not match any nodes
+2022-06-27 00:17:20.010210 (Thread-32): 00:17:20  No nodes selected!
+2022-06-27 00:17:20.011725 (Thread-32): sending response (<Response 1954 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:17:20.134846 (Thread-33): handling status request
+2022-06-27 00:17:20.135260 (Thread-33): 00:17:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ea15b0>]}
+2022-06-27 00:17:20.135751 (Thread-33): sending response (<Response 2036 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:17:20.329938 (Thread-34): handling status request
+2022-06-27 00:17:20.330357 (Thread-34): 00:17:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ea11f0>]}
+2022-06-27 00:17:20.331183 (Thread-34): sending response (<Response 2036 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:05.283707 (Thread-35): handling status request
+2022-06-27 00:18:05.284175 (Thread-35): 00:18:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a59022460>]}
+2022-06-27 00:18:05.284682 (Thread-35): sending response (<Response 2036 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:05.631532 (Thread-36): handling compile_sql request
+2022-06-27 00:18:05.631931 (Thread-36): 00:18:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f316d0>]}
+2022-06-27 00:18:07.756952 (Thread-36): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:07.781713 (MainThread): dbt runtime exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/task_handler.py", line 102, in task_exec
+    result = self.task.handle_request()
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 164, in handle_request
+    node = self._get_exec_node()
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 125, in _get_exec_node
+    add_new_refs(
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 50, in add_new_refs
+    process_node(config, manifest, node)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 1275, in process_node
+    _process_sources_for_node(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 1243, in _process_sources_for_node
+    invalid_source_fail_unless_test(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 924, in invalid_source_fail_unless_test
+    source_target_not_found(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/exceptions.py", line 646, in source_target_not_found
+    raise_compiler_error(msg, model)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/exceptions.py", line 441, in raise_compiler_error
+    raise CompilationException(msg, node)
+dbt.exceptions.CompilationException: Compilation Error in rpc request (from remote system)
+  Rpc 'rpc.loadsmart_challenge.request' (from remote system) depends on a source named 'external.us_cities' which was not found
+2022-06-27 00:18:08.209940 (Thread-37): handling poll request
+2022-06-27 00:18:08.210467 (Thread-37): 00:18:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ea1460>]}
+2022-06-27 00:18:08.211213 (Thread-37): sending response (<Response 2555 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:20.249190 (Thread-38): 00:18:20  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 00:18:20.249572 (Thread-38): 00:18:20  Partial parsing: update schema file: loadsmart_challenge://models/staging/us_cities/src_us_cities.yml
+2022-06-27 00:18:20.300282 (Thread-38): 00:18:20  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:18:20.304892 (Thread-38): 00:18:20  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e94a30>]}
+2022-06-27 00:18:21.072123 (Thread-39): handling status request
+2022-06-27 00:18:21.072521 (Thread-39): 00:18:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a581c3ac0>]}
+2022-06-27 00:18:21.101010 (Thread-39): sending response (<Response 1728 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:21.178756 (Thread-40): handling status request
+2022-06-27 00:18:21.179197 (Thread-40): 00:18:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a581c3400>]}
+2022-06-27 00:18:21.179692 (Thread-40): sending response (<Response 1728 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:22.430874 (Thread-41): 00:18:22  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 00:18:22.431256 (Thread-41): 00:18:22  Partial parsing: updated file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:18:22.434878 (Thread-41): 00:18:22  1699: static parser successfully parsed staging/us_cities/src_us_cities.sql
+2022-06-27 00:18:23.204676 (Thread-42): handling status request
+2022-06-27 00:18:23.205091 (Thread-42): 00:18:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5815dc70>]}
+2022-06-27 00:18:23.205569 (Thread-42): sending response (<Response 1404 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:23.264422 (Thread-43): handling status request
+2022-06-27 00:18:23.264764 (Thread-43): 00:18:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5815da00>]}
+2022-06-27 00:18:23.265201 (Thread-43): sending response (<Response 1404 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:24.572145 (Thread-44): handling status request
+2022-06-27 00:18:24.572569 (Thread-44): 00:18:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5815daf0>]}
+2022-06-27 00:18:24.573029 (Thread-44): sending response (<Response 1404 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:18:24.974633 (Thread-45): handling compile_sql request
+2022-06-27 00:18:24.975055 (Thread-45): 00:18:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a581d3910>]}
+2022-06-27 00:18:24.975498 (Thread-45): sending response (<Response 839 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:39.760727 (Thread-46): handling status request
+2022-06-27 00:20:39.762293 (Thread-46): 00:20:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5815feb0>]}
+2022-06-27 00:20:39.762760 (Thread-46): sending response (<Response 1404 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:40.177475 (Thread-47): handling run_sql request
+2022-06-27 00:20:40.177913 (Thread-47): 00:20:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e71400>]}
+2022-06-27 00:20:40.178314 (Thread-47): sending response (<Response 839 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:45.319505 (Thread-48): 00:20:45  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 00:20:45.319873 (Thread-48): 00:20:45  Partial parsing: updated file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:20:45.323588 (Thread-48): 00:20:45  1699: static parser successfully parsed staging/us_cities/src_us_cities.sql
+2022-06-27 00:20:45.361431 (Thread-48): 00:20:45  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:20:45.366252 (Thread-48): 00:20:45  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58145b80>]}
+2022-06-27 00:20:46.075346 (Thread-49): handling status request
+2022-06-27 00:20:46.075757 (Thread-49): 00:20:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e2dc10>]}
+2022-06-27 00:20:46.076258 (Thread-49): sending response (<Response 2038 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:46.118846 (Thread-50): handling status request
+2022-06-27 00:20:46.119187 (Thread-50): 00:20:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e2d9d0>]}
+2022-06-27 00:20:46.119633 (Thread-50): sending response (<Response 2038 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:47.842699 (Thread-51): handling status request
+2022-06-27 00:20:47.843096 (Thread-51): 00:20:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e2d7c0>]}
+2022-06-27 00:20:47.843668 (Thread-51): sending response (<Response 2038 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:48.291372 (Thread-52): handling run_sql request
+2022-06-27 00:20:48.291753 (Thread-52): 00:20:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e2d670>]}
+2022-06-27 00:20:50.396767 (Thread-52): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:50.420962 (MainThread): 00:20:50  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '963e2353-4fe0-4136-9611-7b09678e5423', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa152d1f730>]}
+2022-06-27 00:20:50.421550 (MainThread): 00:20:50  Found 1 model, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-06-27 00:20:50.422148 (Thread-1): 00:20:50  Acquiring new redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:20:50.422293 (Thread-1): 00:20:50  Began compiling node rpc.loadsmart_challenge.request
+2022-06-27 00:20:50.422402 (Thread-1): 00:20:50  Compiling rpc.loadsmart_challenge.request
+2022-06-27 00:20:50.423584 (Thread-1): 00:20:50  finished collecting timing info
+2022-06-27 00:20:50.423714 (Thread-1): 00:20:50  Began executing node rpc.loadsmart_challenge.request
+2022-06-27 00:20:50.423819 (Thread-1): 00:20:50  Using redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:20:50.423895 (Thread-1): 00:20:50  On rpc.loadsmart_challenge.request: SELECT * FROM "loadsmart"."external"."us_cities"
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-27 00:20:50.423978 (Thread-1): 00:20:50  Opening a new connection, currently in state init
+2022-06-27 00:20:50.424069 (Thread-1): 00:20:50  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 00:20:50.800590 (Thread-53): handling poll request
+2022-06-27 00:20:50.801050 (Thread-53): 00:20:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e306d0>]}
+2022-06-27 00:20:50.801950 (Thread-53): sending response (<Response 4129 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:52.204372 (Thread-54): handling poll request
+2022-06-27 00:20:52.204782 (Thread-54): 00:20:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a59034130>]}
+2022-06-27 00:20:52.205279 (Thread-54): sending response (<Response 417 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:53.546612 (Thread-55): handling poll request
+2022-06-27 00:20:53.547057 (Thread-55): 00:20:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e308e0>]}
+2022-06-27 00:20:53.547558 (Thread-55): sending response (<Response 417 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:20:53.685913 (Thread-1): 00:20:53  SQL status: SELECT in 3.26 seconds
+2022-06-27 00:20:53.697768 (Thread-1): 00:20:53  finished collecting timing info
+2022-06-27 00:20:53.697958 (Thread-1): 00:20:53  On rpc.loadsmart_challenge.request: Close
+2022-06-27 00:20:54.963944 (Thread-56): handling poll request
+2022-06-27 00:20:54.964385 (Thread-56): 00:20:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f34790>]}
+2022-06-27 00:20:54.968522 (Thread-56): sending response (<Response 56906 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:26.450332 (Thread-57): handling status request
+2022-06-27 00:21:26.450731 (Thread-57): 00:21:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e6afd0>]}
+2022-06-27 00:21:26.451247 (Thread-57): sending response (<Response 2038 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:26.918783 (Thread-58): handling compile_sql request
+2022-06-27 00:21:26.919252 (Thread-58): 00:21:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e6a100>]}
+2022-06-27 00:21:29.061929 (Thread-58): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:29.086345 (MainThread): dbt runtime exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/task_handler.py", line 102, in task_exec
+    result = self.task.handle_request()
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 164, in handle_request
+    node = self._get_exec_node()
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 125, in _get_exec_node
+    add_new_refs(
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 50, in add_new_refs
+    process_node(config, manifest, node)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 1275, in process_node
+    _process_sources_for_node(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 1243, in _process_sources_for_node
+    invalid_source_fail_unless_test(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/parser/manifest.py", line 924, in invalid_source_fail_unless_test
+    source_target_not_found(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/exceptions.py", line 646, in source_target_not_found
+    raise_compiler_error(msg, model)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/exceptions.py", line 441, in raise_compiler_error
+    raise CompilationException(msg, node)
+dbt.exceptions.CompilationException: Compilation Error in rpc request (from remote system)
+  Rpc 'rpc.loadsmart_challenge.request' (from remote system) depends on a source named 'external.us_cities' which was not found
+2022-06-27 00:21:29.399011 (Thread-59): handling poll request
+2022-06-27 00:21:29.399565 (Thread-59): 00:21:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f349d0>]}
+2022-06-27 00:21:29.400275 (Thread-59): sending response (<Response 2555 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:51.620495 (Thread-60): 00:21:51  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 00:21:51.620946 (Thread-60): 00:21:51  Partial parsing: deleted source source.loadsmart_challenge.us_cities.us_cities
+2022-06-27 00:21:51.621111 (Thread-60): 00:21:51  Partial parsing: update schema file: loadsmart_challenge://models/staging/us_cities/src_us_cities.yml
+2022-06-27 00:21:51.666017 (Thread-60): 00:21:51  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:21:51.671078 (Thread-60): 00:21:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58094ca0>]}
+2022-06-27 00:21:52.456060 (Thread-61): handling status request
+2022-06-27 00:21:52.456470 (Thread-61): 00:21:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a581c34f0>]}
+2022-06-27 00:21:52.456971 (Thread-61): sending response (<Response 2047 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:52.543374 (Thread-62): handling status request
+2022-06-27 00:21:52.543744 (Thread-62): 00:21:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580f1f40>]}
+2022-06-27 00:21:52.544198 (Thread-62): sending response (<Response 2047 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:53.850045 (Thread-63): 00:21:53  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 00:21:53.850423 (Thread-63): 00:21:53  Partial parsing: updated file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:21:53.854416 (Thread-63): 00:21:53  1699: static parser successfully parsed staging/us_cities/src_us_cities.sql
+2022-06-27 00:21:54.672187 (Thread-64): handling status request
+2022-06-27 00:21:54.673126 (Thread-65): handling status request
+2022-06-27 00:21:54.673387 (Thread-64): 00:21:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2dbcbbb0>]}
+2022-06-27 00:21:54.673737 (Thread-65): 00:21:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a581ccc10>]}
+2022-06-27 00:21:54.674252 (Thread-64): sending response (<Response 1404 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:54.674726 (Thread-65): sending response (<Response 1404 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:56.516965 (Thread-66): handling status request
+2022-06-27 00:21:56.517406 (Thread-66): 00:21:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58164130>]}
+2022-06-27 00:21:56.517880 (Thread-66): sending response (<Response 1404 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:21:56.870858 (Thread-67): handling compile_sql request
+2022-06-27 00:21:56.871283 (Thread-67): 00:21:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580f1af0>]}
+2022-06-27 00:21:56.871682 (Thread-67): sending response (<Response 839 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:22.009165 (Thread-68): 00:24:22  Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+2022-06-27 00:24:22.010375 (Thread-68): 00:24:22  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:24:22.010523 (Thread-68): 00:24:22  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:24:22.014920 (Thread-68): 00:24:22  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:24:22.788733 (Thread-69): handling status request
+2022-06-27 00:24:22.789134 (Thread-69): 00:24:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db66ac0>]}
+2022-06-27 00:24:22.789614 (Thread-69): sending response (<Response 1734 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:22.814840 (Thread-70): handling status request
+2022-06-27 00:24:22.815108 (Thread-70): 00:24:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db66790>]}
+2022-06-27 00:24:22.815494 (Thread-70): sending response (<Response 1734 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:31.723257 (Thread-71): 00:24:31  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:24:31.723608 (Thread-71): 00:24:31  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:24:31.723798 (Thread-71): 00:24:31  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:24:31.723936 (Thread-71): 00:24:31  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:24:31.724054 (Thread-71): 00:24:31  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:24:31.727831 (Thread-71): 00:24:31  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:24:32.504339 (Thread-72): handling status request
+2022-06-27 00:24:32.504756 (Thread-72): 00:24:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db2ba60>]}
+2022-06-27 00:24:32.505262 (Thread-72): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:32.524710 (Thread-73): handling status request
+2022-06-27 00:24:32.525036 (Thread-73): 00:24:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db2b850>]}
+2022-06-27 00:24:32.546407 (Thread-73): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:40.600686 (Thread-74): handling status request
+2022-06-27 00:24:40.601145 (Thread-74): 00:24:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db2b040>]}
+2022-06-27 00:24:40.601662 (Thread-74): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:40.955966 (Thread-75): handling compile_sql request
+2022-06-27 00:24:40.956379 (Thread-75): 00:24:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db2b820>]}
+2022-06-27 00:24:40.956831 (Thread-75): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:57.632535 (Thread-76): 00:24:57  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:24:57.632866 (Thread-76): 00:24:57  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:24:57.633052 (Thread-76): 00:24:57  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:24:57.633188 (Thread-76): 00:24:57  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:24:57.633305 (Thread-76): 00:24:57  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:24:57.637519 (Thread-76): 00:24:57  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:24:58.408562 (Thread-77): handling status request
+2022-06-27 00:24:58.409140 (Thread-77): 00:24:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a5a68aa00>]}
+2022-06-27 00:24:58.409863 (Thread-77): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:24:58.472912 (Thread-78): handling status request
+2022-06-27 00:24:58.473305 (Thread-78): 00:24:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a96eb0>]}
+2022-06-27 00:24:58.473784 (Thread-78): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:25:02.162211 (Thread-79): handling status request
+2022-06-27 00:25:02.162656 (Thread-79): 00:25:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a04250>]}
+2022-06-27 00:25:02.163228 (Thread-79): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:25:02.505018 (Thread-80): handling compile_sql request
+2022-06-27 00:25:02.505541 (Thread-80): 00:25:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a047c0>]}
+2022-06-27 00:25:02.506055 (Thread-80): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:25:24.471193 (Thread-81): 00:25:24  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:25:24.471544 (Thread-81): 00:25:24  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:25:24.471725 (Thread-81): 00:25:24  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:25:24.471860 (Thread-81): 00:25:24  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:25:24.471975 (Thread-81): 00:25:24  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:25:24.476304 (Thread-81): 00:25:24  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:25:25.245548 (Thread-82): handling status request
+2022-06-27 00:25:25.245991 (Thread-82): 00:25:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db77220>]}
+2022-06-27 00:25:25.246540 (Thread-82): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:25:25.273520 (Thread-83): handling status request
+2022-06-27 00:25:25.273856 (Thread-83): 00:25:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db773a0>]}
+2022-06-27 00:25:25.274336 (Thread-83): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:25:26.761338 (Thread-84): handling status request
+2022-06-27 00:25:26.761730 (Thread-84): 00:25:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db779d0>]}
+2022-06-27 00:25:26.762218 (Thread-84): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:25:27.194945 (Thread-85): handling run_sql request
+2022-06-27 00:25:27.195403 (Thread-85): 00:25:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db77340>]}
+2022-06-27 00:25:27.195806 (Thread-85): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:26:30.430243 (Thread-86): 00:26:30  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:26:30.431627 (Thread-86): 00:26:30  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:26:30.431816 (Thread-86): 00:26:30  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:26:30.431951 (Thread-86): 00:26:30  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:26:30.432069 (Thread-86): 00:26:30  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:26:30.436399 (Thread-86): 00:26:30  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:26:31.212905 (Thread-87): handling status request
+2022-06-27 00:26:31.213330 (Thread-87): 00:26:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a03d60>]}
+2022-06-27 00:26:31.213840 (Thread-87): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:26:31.268602 (Thread-88): handling status request
+2022-06-27 00:26:31.268929 (Thread-88): 00:26:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a03ee0>]}
+2022-06-27 00:26:31.269388 (Thread-88): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:26:32.736254 (Thread-89): 00:26:32  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:26:32.736588 (Thread-89): 00:26:32  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:26:32.736774 (Thread-89): 00:26:32  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:26:32.736910 (Thread-89): 00:26:32  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:26:32.737028 (Thread-89): 00:26:32  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:26:32.741552 (Thread-89): 00:26:32  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:26:33.477720 (Thread-90): handling status request
+2022-06-27 00:26:33.478126 (Thread-90): 00:26:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db0b4f0>]}
+2022-06-27 00:26:33.478629 (Thread-90): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:26:33.523424 (Thread-91): handling status request
+2022-06-27 00:26:33.523769 (Thread-91): 00:26:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db0b340>]}
+2022-06-27 00:26:33.524256 (Thread-91): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:27:56.553639 (Thread-92): 00:27:56  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:27:56.554499 (Thread-92): 00:27:56  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:27:56.554698 (Thread-92): 00:27:56  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:27:56.554832 (Thread-92): 00:27:56  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:27:56.554949 (Thread-92): 00:27:56  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:27:56.558751 (Thread-92): 00:27:56  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:27:57.361508 (Thread-93): handling status request
+2022-06-27 00:27:57.361914 (Thread-93): 00:27:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2da32d60>]}
+2022-06-27 00:27:57.362423 (Thread-93): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:27:57.408569 (Thread-94): handling status request
+2022-06-27 00:27:57.408893 (Thread-94): 00:27:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e8b790>]}
+2022-06-27 00:27:57.409417 (Thread-94): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:27:59.208767 (Thread-95): 00:27:59  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:27:59.209088 (Thread-95): 00:27:59  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:27:59.209268 (Thread-95): 00:27:59  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:27:59.209400 (Thread-95): 00:27:59  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:27:59.209513 (Thread-95): 00:27:59  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:27:59.213107 (Thread-95): 00:27:59  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:28:00.069694 (Thread-96): handling status request
+2022-06-27 00:28:00.070129 (Thread-96): 00:28:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e7afa0>]}
+2022-06-27 00:28:00.070656 (Thread-96): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:00.124035 (Thread-97): handling status request
+2022-06-27 00:28:00.124424 (Thread-97): 00:28:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e85df0>]}
+2022-06-27 00:28:00.124902 (Thread-97): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:01.618618 (Thread-98): handling status request
+2022-06-27 00:28:01.619032 (Thread-98): 00:28:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e85f70>]}
+2022-06-27 00:28:01.619555 (Thread-98): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:02.026457 (Thread-99): handling run_sql request
+2022-06-27 00:28:02.026872 (Thread-99): 00:28:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ef42b0>]}
+2022-06-27 00:28:02.027308 (Thread-99): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:20.144040 (Thread-100): handling status request
+2022-06-27 00:28:20.144453 (Thread-100): 00:28:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ef4e50>]}
+2022-06-27 00:28:20.144948 (Thread-100): sending response (<Response 2386 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:20.469430 (Thread-101): handling run_sql request
+2022-06-27 00:28:20.469827 (Thread-101): 00:28:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ef40d0>]}
+2022-06-27 00:28:20.470204 (Thread-101): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:24.650949 (Thread-102): 00:28:24  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:28:24.651300 (Thread-102): 00:28:24  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:28:24.651486 (Thread-102): 00:28:24  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:28:24.651618 (Thread-102): 00:28:24  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:28:24.651731 (Thread-102): 00:28:24  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:28:24.655237 (Thread-102): 00:28:24  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:28:25.499623 (Thread-103): handling status request
+2022-06-27 00:28:25.500038 (Thread-103): 00:28:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ed03d0>]}
+2022-06-27 00:28:25.500553 (Thread-103): sending response (<Response 2392 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:25.521268 (Thread-104): handling status request
+2022-06-27 00:28:25.521588 (Thread-104): 00:28:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ed0b20>]}
+2022-06-27 00:28:25.522041 (Thread-104): sending response (<Response 2392 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:27.440624 (Thread-105): handling status request
+2022-06-27 00:28:27.441056 (Thread-105): 00:28:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58eaa370>]}
+2022-06-27 00:28:27.441537 (Thread-105): sending response (<Response 2392 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:27.804892 (Thread-106): handling run_sql request
+2022-06-27 00:28:27.805298 (Thread-106): 00:28:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ed0a30>]}
+2022-06-27 00:28:27.805693 (Thread-106): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:47.858698 (Thread-107): 00:28:47  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:28:47.859020 (Thread-107): 00:28:47  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:28:47.859224 (Thread-107): 00:28:47  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:28:47.859364 (Thread-107): 00:28:47  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:28:47.859480 (Thread-107): 00:28:47  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:28:47.863017 (Thread-107): 00:28:47  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:28:48.655610 (Thread-108): handling status request
+2022-06-27 00:28:48.656040 (Thread-108): 00:28:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e856a0>]}
+2022-06-27 00:28:48.656620 (Thread-108): sending response (<Response 2392 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:28:48.736450 (Thread-109): handling status request
+2022-06-27 00:28:48.736834 (Thread-109): 00:28:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f6ee50>]}
+2022-06-27 00:28:48.737314 (Thread-109): sending response (<Response 2392 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:29:12.149581 (Thread-110): 00:29:12  Partial parsing enabled: 2 files deleted, 2 files added, 0 files changed.
+2022-06-27 00:29:12.149913 (Thread-110): 00:29:12  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:29:12.150096 (Thread-110): 00:29:12  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:29:12.150232 (Thread-110): 00:29:12  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:29:12.150397 (Thread-110): 00:29:12  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:29:12.154143 (Thread-110): 00:29:12  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:29:12.935482 (Thread-111): handling status request
+2022-06-27 00:29:12.935893 (Thread-111): 00:29:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580a7370>]}
+2022-06-27 00:29:12.936399 (Thread-111): sending response (<Response 2392 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:29:13.497459 (Thread-112): handling status request
+2022-06-27 00:29:13.497874 (Thread-112): 00:29:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580a7250>]}
+2022-06-27 00:29:13.572171 (Thread-112): sending response (<Response 2392 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:29:55.942985 (Thread-113): 00:29:55  Partial parsing enabled: 2 files deleted, 3 files added, 0 files changed.
+2022-06-27 00:29:55.943352 (Thread-113): 00:29:55  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:29:55.943550 (Thread-113): 00:29:55  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:29:55.943716 (Thread-113): 00:29:55  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:29:55.943849 (Thread-113): 00:29:55  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:29:55.943964 (Thread-113): 00:29:55  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:29:55.947600 (Thread-113): 00:29:55  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:29:56.741816 (Thread-114): handling status request
+2022-06-27 00:29:56.742230 (Thread-114): 00:29:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a06c40>]}
+2022-06-27 00:29:56.742760 (Thread-114): sending response (<Response 2727 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:29:56.757046 (Thread-115): handling status request
+2022-06-27 00:29:56.757344 (Thread-115): 00:29:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a06a60>]}
+2022-06-27 00:29:56.757801 (Thread-115): sending response (<Response 2727 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:30:07.194931 (Thread-116): 00:30:07  Partial parsing enabled: 2 files deleted, 3 files added, 0 files changed.
+2022-06-27 00:30:07.195288 (Thread-116): 00:30:07  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:30:07.195486 (Thread-116): 00:30:07  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:30:07.195652 (Thread-116): 00:30:07  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:30:07.195785 (Thread-116): 00:30:07  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:30:07.195900 (Thread-116): 00:30:07  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:30:07.199523 (Thread-116): 00:30:07  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:30:07.928896 (Thread-117): handling status request
+2022-06-27 00:30:07.929308 (Thread-117): 00:30:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580875e0>]}
+2022-06-27 00:30:07.929879 (Thread-117): sending response (<Response 2727 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:30:07.947366 (Thread-118): handling status request
+2022-06-27 00:30:07.947757 (Thread-118): 00:30:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58087070>]}
+2022-06-27 00:30:07.948278 (Thread-118): sending response (<Response 2727 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:30:19.686116 (Thread-119): 00:30:19  Partial parsing enabled: 2 files deleted, 4 files added, 0 files changed.
+2022-06-27 00:30:19.686480 (Thread-119): 00:30:19  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:30:19.686677 (Thread-119): 00:30:19  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:30:19.686846 (Thread-119): 00:30:19  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.sql
+2022-06-27 00:30:19.687010 (Thread-119): 00:30:19  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:30:19.687194 (Thread-119): 00:30:19  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:30:19.687353 (Thread-119): 00:30:19  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:30:19.691058 (Thread-119): 00:30:19  1699: static parser successfully parsed staging/internal/data_challenge.sql
+2022-06-27 00:30:19.693187 (Thread-119): 00:30:19  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:30:20.462390 (Thread-120): handling status request
+2022-06-27 00:30:20.462801 (Thread-120): 00:30:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ed05e0>]}
+2022-06-27 00:30:20.463368 (Thread-120): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:30:21.050866 (Thread-121): handling status request
+2022-06-27 00:30:21.051325 (Thread-121): 00:30:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f710d0>]}
+2022-06-27 00:30:21.051868 (Thread-121): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:30:54.384498 (Thread-122): 00:30:54  Partial parsing enabled: 2 files deleted, 4 files added, 0 files changed.
+2022-06-27 00:30:54.384849 (Thread-122): 00:30:54  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:30:54.385053 (Thread-122): 00:30:54  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:30:54.385218 (Thread-122): 00:30:54  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.sql
+2022-06-27 00:30:54.385374 (Thread-122): 00:30:54  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:30:54.385507 (Thread-122): 00:30:54  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:30:54.385624 (Thread-122): 00:30:54  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:30:54.389562 (Thread-122): 00:30:54  1699: static parser successfully parsed staging/internal/data_challenge.sql
+2022-06-27 00:30:54.391684 (Thread-122): 00:30:54  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:30:55.191714 (Thread-123): handling status request
+2022-06-27 00:30:55.192116 (Thread-123): 00:30:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ed80d0>]}
+2022-06-27 00:30:55.192638 (Thread-123): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:30:55.245544 (Thread-124): handling status request
+2022-06-27 00:30:55.245929 (Thread-124): 00:30:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ed8280>]}
+2022-06-27 00:30:55.246447 (Thread-124): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:24.294578 (Thread-125): 00:31:24  Partial parsing enabled: 2 files deleted, 4 files added, 0 files changed.
+2022-06-27 00:31:24.294902 (Thread-125): 00:31:24  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:31:24.295102 (Thread-125): 00:31:24  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:31:24.295306 (Thread-125): 00:31:24  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.sql
+2022-06-27 00:31:24.295471 (Thread-125): 00:31:24  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:31:24.295605 (Thread-125): 00:31:24  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:31:24.295721 (Thread-125): 00:31:24  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:31:24.299305 (Thread-125): 00:31:24  1699: static parser successfully parsed staging/internal/data_challenge.sql
+2022-06-27 00:31:24.301326 (Thread-125): 00:31:24  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:31:25.041049 (Thread-126): handling status request
+2022-06-27 00:31:25.041528 (Thread-126): 00:31:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ed6e80>]}
+2022-06-27 00:31:25.042089 (Thread-126): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:25.285476 (Thread-127): handling status request
+2022-06-27 00:31:25.285896 (Thread-127): 00:31:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ebebb0>]}
+2022-06-27 00:31:25.286442 (Thread-127): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:26.804858 (Thread-128): 00:31:26  Partial parsing enabled: 2 files deleted, 4 files added, 0 files changed.
+2022-06-27 00:31:26.805211 (Thread-128): 00:31:26  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:31:26.805410 (Thread-128): 00:31:26  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:31:26.805577 (Thread-128): 00:31:26  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.sql
+2022-06-27 00:31:26.805733 (Thread-128): 00:31:26  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:31:26.805863 (Thread-128): 00:31:26  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:31:26.805980 (Thread-128): 00:31:26  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:31:26.809861 (Thread-128): 00:31:26  1699: static parser successfully parsed staging/internal/data_challenge.sql
+2022-06-27 00:31:26.811978 (Thread-128): 00:31:26  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:31:27.629670 (Thread-129): handling status request
+2022-06-27 00:31:27.630093 (Thread-129): 00:31:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ebb9a0>]}
+2022-06-27 00:31:27.630658 (Thread-129): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:27.681904 (Thread-130): handling status request
+2022-06-27 00:31:27.682265 (Thread-130): 00:31:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ebb940>]}
+2022-06-27 00:31:27.682780 (Thread-130): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:30.864870 (Thread-131): handling status request
+2022-06-27 00:31:30.865284 (Thread-131): 00:31:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ebb5e0>]}
+2022-06-27 00:31:30.865837 (Thread-131): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:31.206583 (Thread-132): handling run_sql request
+2022-06-27 00:31:31.206976 (Thread-132): 00:31:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58ebbc70>]}
+2022-06-27 00:31:31.207390 (Thread-132): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:39.861476 (Thread-133): handling status request
+2022-06-27 00:31:39.861892 (Thread-133): 00:31:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f71190>]}
+2022-06-27 00:31:39.862447 (Thread-133): sending response (<Response 3379 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:40.215489 (Thread-134): handling run_sql request
+2022-06-27 00:31:40.215897 (Thread-134): 00:31:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f717c0>]}
+2022-06-27 00:31:40.216307 (Thread-134): sending response (<Response 835 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:52.381639 (Thread-135): 00:31:52  Partial parsing enabled: 2 files deleted, 4 files added, 0 files changed.
+2022-06-27 00:31:52.381991 (Thread-135): 00:31:52  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:31:52.382192 (Thread-135): 00:31:52  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:31:52.382371 (Thread-135): 00:31:52  Partial parsing: added file: loadsmart_challenge://models/staging/internal/data_challenge.sql
+2022-06-27 00:31:52.382533 (Thread-135): 00:31:52  Partial parsing: added file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:31:52.382667 (Thread-135): 00:31:52  Partial parsing: deleted source source.loadsmart_challenge.loadsmart.us_cities
+2022-06-27 00:31:52.382786 (Thread-135): 00:31:52  Partial parsing: deleted file: loadsmart_challenge://models/staging/us_cities/src_us_cities.sql
+2022-06-27 00:31:52.387404 (Thread-135): 00:31:52  1699: static parser successfully parsed staging/internal/data_challenge.sql
+2022-06-27 00:31:52.390806 (Thread-135): 00:31:52  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:31:52.438772 (Thread-135): 00:31:52  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:31:52.443839 (Thread-135): 00:31:52  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a0b850>]}
+2022-06-27 00:31:53.112256 (Thread-136): handling status request
+2022-06-27 00:31:53.112698 (Thread-136): 00:31:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580ee7c0>]}
+2022-06-27 00:31:53.113269 (Thread-136): sending response (<Response 4017 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:53.181839 (Thread-137): handling status request
+2022-06-27 00:31:53.182199 (Thread-137): 00:31:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580ee580>]}
+2022-06-27 00:31:53.182738 (Thread-137): sending response (<Response 4017 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:57.630912 (Thread-138): handling status request
+2022-06-27 00:31:57.631384 (Thread-138): 00:31:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a580ee070>]}
+2022-06-27 00:31:57.631945 (Thread-138): sending response (<Response 4017 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:31:58.036293 (Thread-139): handling run_sql request
+2022-06-27 00:31:58.036691 (Thread-139): 00:31:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58171e50>]}
+2022-06-27 00:32:00.166816 (Thread-139): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:00.191918 (MainThread): 00:32:00  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '13a72cd8-459e-4fce-b4a3-ba0f248ceba1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c6d6a9f70>]}
+2022-06-27 00:32:00.192453 (MainThread): 00:32:00  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 00:32:00.193029 (Thread-1): 00:32:00  Acquiring new redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:32:00.193163 (Thread-1): 00:32:00  Began compiling node rpc.loadsmart_challenge.request
+2022-06-27 00:32:00.193253 (Thread-1): 00:32:00  Compiling rpc.loadsmart_challenge.request
+2022-06-27 00:32:00.195358 (Thread-1): 00:32:00  finished collecting timing info
+2022-06-27 00:32:00.195484 (Thread-1): 00:32:00  Began executing node rpc.loadsmart_challenge.request
+2022-06-27 00:32:00.195579 (Thread-1): 00:32:00  Using redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:32:00.195652 (Thread-1): 00:32:00  On rpc.loadsmart_challenge.request: select * from "loadsmart"."internal"."data_challenge"
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-27 00:32:00.195728 (Thread-1): 00:32:00  Opening a new connection, currently in state init
+2022-06-27 00:32:00.195807 (Thread-1): 00:32:00  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 00:32:00.697108 (Thread-140): handling poll request
+2022-06-27 00:32:00.697568 (Thread-140): 00:32:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a581455e0>]}
+2022-06-27 00:32:00.698532 (Thread-140): sending response (<Response 4147 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:02.138870 (Thread-141): handling poll request
+2022-06-27 00:32:02.139346 (Thread-141): 00:32:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a581714f0>]}
+2022-06-27 00:32:02.139831 (Thread-141): sending response (<Response 417 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:03.466907 (Thread-142): handling poll request
+2022-06-27 00:32:03.467444 (Thread-142): 00:32:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58171dc0>]}
+2022-06-27 00:32:03.468022 (Thread-142): sending response (<Response 417 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:03.489567 (Thread-1): 00:32:03  SQL status: SELECT in 3.29 seconds
+2022-06-27 00:32:03.535307 (Thread-1): 00:32:03  finished collecting timing info
+2022-06-27 00:32:03.535518 (Thread-1): 00:32:03  On rpc.loadsmart_challenge.request: Close
+2022-06-27 00:32:04.806902 (Thread-143): handling poll request
+2022-06-27 00:32:04.807346 (Thread-143): 00:32:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f32190>]}
+2022-06-27 00:32:04.820338 (Thread-143): sending response (<Response 204221 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:10.678721 (Thread-144): handling status request
+2022-06-27 00:32:10.679124 (Thread-144): 00:32:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2dbb4af0>]}
+2022-06-27 00:32:10.679727 (Thread-144): sending response (<Response 4017 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:11.074385 (Thread-145): handling compile_sql request
+2022-06-27 00:32:11.074794 (Thread-145): 00:32:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58146370>]}
+2022-06-27 00:32:13.210970 (Thread-145): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:13.235584 (MainThread): 00:32:13  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3572eed3-3864-466a-943b-adcbc482a8ee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc5c6a71be0>]}
+2022-06-27 00:32:13.236107 (MainThread): 00:32:13  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 00:32:13.236695 (Thread-1): 00:32:13  Acquiring new redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:32:13.236827 (Thread-1): 00:32:13  Began compiling node rpc.loadsmart_challenge.request
+2022-06-27 00:32:13.236918 (Thread-1): 00:32:13  Compiling rpc.loadsmart_challenge.request
+2022-06-27 00:32:13.238974 (Thread-1): 00:32:13  finished collecting timing info
+2022-06-27 00:32:13.239103 (Thread-1): 00:32:13  Began executing node rpc.loadsmart_challenge.request
+2022-06-27 00:32:13.239244 (Thread-1): 00:32:13  finished collecting timing info
+2022-06-27 00:32:13.617687 (Thread-146): handling poll request
+2022-06-27 00:32:13.618161 (Thread-146): 00:32:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a59034370>]}
+2022-06-27 00:32:13.619387 (Thread-146): sending response (<Response 5492 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:26.883046 (Thread-147): 00:32:26  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 00:32:26.883544 (Thread-147): 00:32:26  Partial parsing: deleted source source.loadsmart_challenge.data_challenge.data_challenge
+2022-06-27 00:32:26.883704 (Thread-147): 00:32:26  Partial parsing: update schema file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:32:26.887799 (Thread-147): 00:32:26  1699: static parser successfully parsed staging/internal/data_challenge.sql
+2022-06-27 00:32:27.760349 (Thread-148): handling status request
+2022-06-27 00:32:27.760760 (Thread-148): 00:32:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58e84160>]}
+2022-06-27 00:32:27.761271 (Thread-148): sending response (<Response 1756 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:27.825612 (Thread-149): handling status request
+2022-06-27 00:32:27.826036 (Thread-149): 00:32:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a82a96f70>]}
+2022-06-27 00:32:27.848214 (Thread-149): sending response (<Response 1756 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:29.226373 (Thread-150): 00:32:29  Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+2022-06-27 00:32:29.226791 (Thread-150): 00:32:29  Partial parsing: deleted source source.loadsmart_challenge.data_challenge.data_challenge
+2022-06-27 00:32:29.226940 (Thread-150): 00:32:29  Partial parsing: update schema file: loadsmart_challenge://models/staging/internal/data_challenge.yml
+2022-06-27 00:32:29.227151 (Thread-150): 00:32:29  Partial parsing: updated file: loadsmart_challenge://models/staging/internal/data_challenge.sql
+2022-06-27 00:32:29.230830 (Thread-150): 00:32:29  1699: static parser successfully parsed staging/internal/data_challenge.sql
+2022-06-27 00:32:29.266949 (Thread-150): 00:32:29  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:32:29.271517 (Thread-150): 00:32:29  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a829feeb0>]}
+2022-06-27 00:32:30.049645 (Thread-151): handling status request
+2022-06-27 00:32:30.050074 (Thread-151): 00:32:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f39cd0>]}
+2022-06-27 00:32:30.050605 (Thread-151): sending response (<Response 2716 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:30.088651 (Thread-152): handling status request
+2022-06-27 00:32:30.088983 (Thread-152): 00:32:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a58f39b50>]}
+2022-06-27 00:32:30.089453 (Thread-152): sending response (<Response 2716 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:34.749531 (Thread-153): 00:32:34  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 00:32:34.749910 (Thread-153): 00:32:34  Partial parsing: updated file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:32:34.754331 (Thread-153): 00:32:34  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:32:35.535003 (Thread-154): handling status request
+2022-06-27 00:32:35.535442 (Thread-154): 00:32:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db5bac0>]}
+2022-06-27 00:32:35.535929 (Thread-154): sending response (<Response 1403 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:35.737969 (Thread-155): handling status request
+2022-06-27 00:32:35.738400 (Thread-155): 00:32:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db5bc10>]}
+2022-06-27 00:32:35.738881 (Thread-155): sending response (<Response 1403 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:42.292496 (Thread-156): 00:32:42  Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+2022-06-27 00:32:42.292913 (Thread-156): 00:32:42  Partial parsing: deleted source source.loadsmart_challenge.us_citiesKLO.us_cities
+2022-06-27 00:32:42.293065 (Thread-156): 00:32:42  Partial parsing: update schema file: loadsmart_challenge://models/staging/external/src_us_cities.yml
+2022-06-27 00:32:42.293238 (Thread-156): 00:32:42  Partial parsing: updated file: loadsmart_challenge://models/staging/external/src_us_cities.sql
+2022-06-27 00:32:42.297515 (Thread-156): 00:32:42  1699: static parser successfully parsed staging/external/src_us_cities.sql
+2022-06-27 00:32:42.338354 (Thread-156): 00:32:42  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.loadsmart_challenge.example
+
+2022-06-27 00:32:42.342841 (Thread-156): 00:32:42  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2d831640>]}
+2022-06-27 00:32:43.042903 (Thread-157): handling status request
+2022-06-27 00:32:43.043406 (Thread-157): 00:32:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db59220>]}
+2022-06-27 00:32:43.043944 (Thread-157): sending response (<Response 2706 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:32:43.074874 (Thread-158): handling status request
+2022-06-27 00:32:43.075285 (Thread-158): 00:32:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2d82b1f0>]}
+2022-06-27 00:32:43.075767 (Thread-158): sending response (<Response 2706 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:33:11.892064 (Thread-159): handling status request
+2022-06-27 00:33:11.892461 (Thread-159): 00:33:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2d9e1160>]}
+2022-06-27 00:33:11.892956 (Thread-159): sending response (<Response 2706 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:33:12.222556 (Thread-160): handling run_sql request
+2022-06-27 00:33:12.222959 (Thread-160): 00:33:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2d9dfee0>]}
+2022-06-27 00:33:14.333899 (Thread-160): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:33:14.359197 (MainThread): 00:33:14  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '2517b1f6-0bdb-4805-a267-161ccfcfac54', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb64954ef70>]}
+2022-06-27 00:33:14.359753 (MainThread): 00:33:14  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 00:33:14.360355 (Thread-1): 00:33:14  Acquiring new redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:33:14.360491 (Thread-1): 00:33:14  Began compiling node rpc.loadsmart_challenge.request
+2022-06-27 00:33:14.360588 (Thread-1): 00:33:14  Compiling rpc.loadsmart_challenge.request
+2022-06-27 00:33:14.362645 (Thread-1): 00:33:14  finished collecting timing info
+2022-06-27 00:33:14.362771 (Thread-1): 00:33:14  Began executing node rpc.loadsmart_challenge.request
+2022-06-27 00:33:14.362868 (Thread-1): 00:33:14  Using redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:33:14.362940 (Thread-1): 00:33:14  On rpc.loadsmart_challenge.request: select * from "loadsmart"."external"."us_cities"
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-27 00:33:14.363017 (Thread-1): 00:33:14  Opening a new connection, currently in state init
+2022-06-27 00:33:14.363095 (Thread-1): 00:33:14  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 00:33:14.388622 (Thread-1): 00:33:14  SQL status: SELECT in 0.03 seconds
+2022-06-27 00:33:14.400667 (Thread-1): 00:33:14  finished collecting timing info
+2022-06-27 00:33:14.400840 (Thread-1): 00:33:14  On rpc.loadsmart_challenge.request: Close
+2022-06-27 00:33:14.739389 (Thread-161): handling poll request
+2022-06-27 00:33:14.739886 (Thread-161): 00:33:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2dadd310>]}
+2022-06-27 00:33:14.744849 (Thread-161): sending response (<Response 60701 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:33:21.935833 (Thread-162): handling status request
+2022-06-27 00:33:21.936230 (Thread-162): 00:33:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2d9e10d0>]}
+2022-06-27 00:33:21.936779 (Thread-162): sending response (<Response 2706 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:33:22.259415 (Thread-163): handling run_sql request
+2022-06-27 00:33:22.259827 (Thread-163): 00:33:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2d9e18e0>]}
+2022-06-27 00:33:24.420235 (Thread-163): sending response (<Response 138 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:33:24.409299 (MainThread): 00:33:24  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'd1579fa7-e020-4eb4-a3e7-3865ea8644fe', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa51dd3aee0>]}
+2022-06-27 00:33:24.419616 (MainThread): 00:33:24  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 00:33:24.420330 (Thread-1): 00:33:24  Acquiring new redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:33:24.420464 (Thread-1): 00:33:24  Began compiling node rpc.loadsmart_challenge.request
+2022-06-27 00:33:24.420558 (Thread-1): 00:33:24  Compiling rpc.loadsmart_challenge.request
+2022-06-27 00:33:24.422663 (Thread-1): 00:33:24  finished collecting timing info
+2022-06-27 00:33:24.422793 (Thread-1): 00:33:24  Began executing node rpc.loadsmart_challenge.request
+2022-06-27 00:33:24.422891 (Thread-1): 00:33:24  Using redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 00:33:24.422965 (Thread-1): 00:33:24  On rpc.loadsmart_challenge.request: select * from "loadsmart"."internal"."data_challenge"
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-27 00:33:24.423041 (Thread-1): 00:33:24  Opening a new connection, currently in state init
+2022-06-27 00:33:24.423118 (Thread-1): 00:33:24  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 00:33:24.446994 (Thread-1): 00:33:24  SQL status: SELECT in 0.02 seconds
+2022-06-27 00:33:24.493339 (Thread-1): 00:33:24  finished collecting timing info
+2022-06-27 00:33:24.493534 (Thread-1): 00:33:24  On rpc.loadsmart_challenge.request: Close
+2022-06-27 00:33:24.770874 (Thread-164): handling poll request
+2022-06-27 00:33:24.771413 (Thread-164): 00:33:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2db5b340>]}
+2022-06-27 00:33:24.783174 (Thread-164): sending response (<Response 207928 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 00:33:43.900239 (Thread-165): handling status request
+2022-06-27 00:33:43.900628 (Thread-165): 00:33:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a2d978280>]}
+2022-06-27 00:33:43.901144 (Thread-165): sending response (<Response 2706 bytes [200 OK]>) to 10.0.34.124

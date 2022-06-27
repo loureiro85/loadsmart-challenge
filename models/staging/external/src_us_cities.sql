@@ -1,0 +1,1 @@
+select * from {{ source('external', 'us_cities') }};
