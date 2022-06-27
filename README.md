@@ -118,3 +118,7 @@ TODO:
 
 - First transformation std_raw_no_dups
 - Doc block acceptable values
+
+- https://www.flerlagetwins.com/2021/09/calendar-table.html#:~:text=With%20a%20calendar%20table%2C%20we,just%20a%20simple%20join%2Frelationship.
+
+- order by shipper_id and carrier_id

@@ -7,7 +7,7 @@ CREATE TABLE external.us_cities(
   latitude decimal(8, 6),
   longitude decimal(9, 6),
   _loaded_at timestamp DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY key(id)
+  PRIMARY KEY(id)
 );
 
 CREATE TABLE internal.data_challenge(
@@ -42,5 +42,16 @@ CREATE TABLE internal.data_challenge(
   load_sourced_autonomously boolean,
   load_was_cancelled boolean,
   _loaded_at timestamp DEFAULT CURRENT_TIMESTAMP,
-  PRIMARY key(loadsmart_id)
+  PRIMARY KEY(loadsmart_id)
+);
+
+CREATE TABLE external.calendar(
+  date date,
+  day integer,
+  week integer,
+  month integer,
+  quarter integer,
+  semester integer,
+  year integer,
+  PRIMARY KEY(date)
 );
