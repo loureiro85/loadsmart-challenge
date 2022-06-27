@@ -9629,3 +9629,1602 @@ limit 500
 2022-06-27 02:55:51.507271 (Thread-774): handling status request
 2022-06-27 02:55:51.507673 (Thread-774): 02:55:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0d15ee0>]}
 2022-06-27 02:55:51.508193 (Thread-774): sending response (<Response 3265 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:55:53.872144 (Thread-775): 02:55:53  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 02:55:53.872348 (Thread-775): 02:55:53  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 02:55:53.877367 (Thread-775): 02:55:53  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0a5c8b0>]}
+2022-06-27 02:55:54.709060 (Thread-776): handling status request
+2022-06-27 02:55:54.709498 (Thread-776): 02:55:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0af8d00>]}
+2022-06-27 02:55:54.710001 (Thread-776): sending response (<Response 1244 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:55:54.755794 (Thread-777): handling status request
+2022-06-27 02:55:54.756151 (Thread-777): 02:55:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0aec430>]}
+2022-06-27 02:55:54.756587 (Thread-777): sending response (<Response 1244 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:56:33.992288 (Thread-778): 02:56:33  Partial parsing enabled: 0 files deleted, 1 files added, 0 files changed.
+2022-06-27 02:56:33.992621 (Thread-778): 02:56:33  Partial parsing: added file: loadsmart_challenge://models/staging/internal/dim_calendar.sql
+2022-06-27 02:56:33.996340 (Thread-778): 02:56:33  1699: static parser successfully parsed staging/internal/dim_calendar.sql
+2022-06-27 02:56:34.036005 (Thread-778): 02:56:34  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0a76940>]}
+2022-06-27 02:56:34.896355 (Thread-779): handling status request
+2022-06-27 02:56:34.896784 (Thread-779): 02:56:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0a521c0>]}
+2022-06-27 02:56:34.897290 (Thread-779): sending response (<Response 1591 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:56:34.901540 (Thread-780): handling status request
+2022-06-27 02:56:34.901797 (Thread-780): 02:56:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0af29a0>]}
+2022-06-27 02:56:34.902181 (Thread-780): sending response (<Response 1591 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 14:06:58.481294 (MainThread): Running with dbt=1.0.8
+2022-06-27 14:06:58.592917 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-06-27 14:06:58.601343 (MainThread): Tracking: tracking
+2022-06-27 14:06:58.623735 (MainThread): 14:06:58  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02d3950700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdf88700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdf885b0>]}
+2022-06-27 14:06:58.624165 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2022-06-27 14:06:58.624484 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-06-27 14:06:58.624658 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-06-27 14:06:58.719562 (Thread-12): 14:06:58  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 14:06:58.719808 (Thread-12): 14:06:58  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 14:06:58.726440 (Thread-12): 14:06:58  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4656490>]}
+2022-06-27 14:07:00.791139 (Thread-13): handling status request
+2022-06-27 14:07:00.791612 (Thread-13): 14:07:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdfbf460>]}
+2022-06-27 14:07:00.792221 (Thread-13): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:01.041038 (Thread-14): handling status request
+2022-06-27 14:07:01.041529 (Thread-14): 14:07:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdfbf370>]}
+2022-06-27 14:07:01.042028 (Thread-14): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:01.382755 (Thread-15): handling status request
+2022-06-27 14:07:01.383198 (Thread-15): 14:07:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdfbf130>]}
+2022-06-27 14:07:01.383697 (Thread-15): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:01.390577 (Thread-16): handling ps request
+2022-06-27 14:07:01.390961 (Thread-16): 14:07:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4640f40>]}
+2022-06-27 14:07:01.391447 (Thread-16): sending response (<Response 105 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:04.030104 (Thread-17): handling status request
+2022-06-27 14:07:04.030559 (Thread-17): 14:07:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdfbf550>]}
+2022-06-27 14:07:04.031036 (Thread-17): sending response (<Response 1219 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:04.038528 (Thread-18): handling list request
+2022-06-27 14:07:04.038817 (Thread-18): 14:07:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4640d60>]}
+2022-06-27 14:07:04.076336 (Thread-18): 14:07:04  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdffe6d0>]}
+2022-06-27 14:07:04.076761 (Thread-18): 14:07:04  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:07:04.079439 (Thread-18): 14:07:04  The selection criterion '+models/staging/internal/dim_calendar.sql+' does not match any nodes
+2022-06-27 14:07:04.079608 (Thread-18): 14:07:04  No nodes selected!
+2022-06-27 14:07:04.081172 (Thread-18): sending response (<Response 1953 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:04.363293 (Thread-19): handling status request
+2022-06-27 14:07:04.363706 (Thread-19): 14:07:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a46566d0>]}
+2022-06-27 14:07:04.364194 (Thread-19): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:35.247112 (Thread-20): handling status request
+2022-06-27 14:07:35.249280 (Thread-20): 14:07:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a46563d0>]}
+2022-06-27 14:07:35.249823 (Thread-20): sending response (<Response 1219 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:35.278726 (Thread-21): handling list request
+2022-06-27 14:07:35.279195 (Thread-21): 14:07:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4656dc0>]}
+2022-06-27 14:07:35.314827 (Thread-21): 14:07:35  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdfbfa30>]}
+2022-06-27 14:07:35.315261 (Thread-21): 14:07:35  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:07:35.326755 (Thread-21): sending response (<Response 4254 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:37.090470 (Thread-22): handling status request
+2022-06-27 14:07:37.090880 (Thread-22): 14:07:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a465e7f0>]}
+2022-06-27 14:07:37.091420 (Thread-22): sending response (<Response 1219 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:37.116535 (Thread-23): handling list request
+2022-06-27 14:07:37.116921 (Thread-23): 14:07:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a465ec40>]}
+2022-06-27 14:07:37.146935 (Thread-23): 14:07:37  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a465e490>]}
+2022-06-27 14:07:37.147346 (Thread-23): 14:07:37  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:07:37.151598 (Thread-23): sending response (<Response 5149 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:38.508230 (Thread-24): handling status request
+2022-06-27 14:07:38.508627 (Thread-24): 14:07:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a462f100>]}
+2022-06-27 14:07:38.509103 (Thread-24): sending response (<Response 1219 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:38.554704 (Thread-25): handling list request
+2022-06-27 14:07:38.555070 (Thread-25): 14:07:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a462fdc0>]}
+2022-06-27 14:07:38.586233 (Thread-25): 14:07:38  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a462f430>]}
+2022-06-27 14:07:38.586551 (Thread-25): 14:07:38  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:07:38.590976 (Thread-25): sending response (<Response 5149 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:43.529022 (Thread-26): handling status request
+2022-06-27 14:07:43.531039 (Thread-26): 14:07:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4636b80>]}
+2022-06-27 14:07:43.531579 (Thread-26): sending response (<Response 1219 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:07:43.564496 (Thread-27): handling list request
+2022-06-27 14:07:43.564912 (Thread-27): 14:07:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4636f10>]}
+2022-06-27 14:07:43.599721 (Thread-27): 14:07:43  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4636d30>]}
+2022-06-27 14:07:43.600124 (Thread-27): 14:07:43  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:07:43.606061 (Thread-27): sending response (<Response 3587 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:01.648803 (Thread-28): handling status request
+2022-06-27 14:08:01.650703 (Thread-28): 14:08:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a45c5cd0>]}
+2022-06-27 14:08:01.651237 (Thread-28): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:02.075732 (Thread-29): handling status request
+2022-06-27 14:08:02.076184 (Thread-29): 14:08:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a45c5d90>]}
+2022-06-27 14:08:02.076683 (Thread-29): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:02.115493 (Thread-30): handling cli_args request
+2022-06-27 14:08:02.115902 (Thread-30): 14:08:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a45d4190>]}
+2022-06-27 14:08:04.417016 (Thread-30): sending response (<Response 138 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:04.473120 (MainThread): 14:08:04  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-06-27 14:08:04.473581 (MainThread): 14:08:04  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f0028f370>]}
+2022-06-27 14:08:04.555815 (MainThread): 14:08:04  Parsing macros/relations.sql
+2022-06-27 14:08:04.556778 (MainThread): 14:08:04  Parsing macros/adapters.sql
+2022-06-27 14:08:04.587565 (MainThread): 14:08:04  Parsing macros/catalog.sql
+2022-06-27 14:08:04.600174 (MainThread): 14:08:04  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:08:04.600896 (MainThread): 14:08:04  Parsing macros/relations.sql
+2022-06-27 14:08:04.602203 (MainThread): 14:08:04  Parsing macros/adapters.sql
+2022-06-27 14:08:04.625144 (MainThread): 14:08:04  Parsing macros/catalog.sql
+2022-06-27 14:08:04.627397 (MainThread): 14:08:04  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:08:04.629023 (MainThread): 14:08:04  Parsing macros/adapters/metadata.sql
+2022-06-27 14:08:04.636253 (MainThread): 14:08:04  Parsing macros/adapters/columns.sql
+2022-06-27 14:08:04.646576 (MainThread): 14:08:04  Parsing macros/adapters/freshness.sql
+2022-06-27 14:08:04.649481 (MainThread): 14:08:04  Parsing macros/adapters/persist_docs.sql
+2022-06-27 14:08:04.654115 (MainThread): 14:08:04  Parsing macros/adapters/relation.sql
+2022-06-27 14:08:04.663907 (MainThread): 14:08:04  Parsing macros/adapters/schema.sql
+2022-06-27 14:08:04.666097 (MainThread): 14:08:04  Parsing macros/adapters/indexes.sql
+2022-06-27 14:08:04.668881 (MainThread): 14:08:04  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-06-27 14:08:04.671334 (MainThread): 14:08:04  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-06-27 14:08:04.672911 (MainThread): 14:08:04  Parsing macros/get_custom_name/get_custom_database.sql
+2022-06-27 14:08:04.674436 (MainThread): 14:08:04  Parsing macros/etc/datetime.sql
+2022-06-27 14:08:04.682952 (MainThread): 14:08:04  Parsing macros/etc/statement.sql
+2022-06-27 14:08:04.687381 (MainThread): 14:08:04  Parsing macros/generic_test_sql/unique.sql
+2022-06-27 14:08:04.688239 (MainThread): 14:08:04  Parsing macros/generic_test_sql/not_null.sql
+2022-06-27 14:08:04.688773 (MainThread): 14:08:04  Parsing macros/generic_test_sql/accepted_values.sql
+2022-06-27 14:08:04.690098 (MainThread): 14:08:04  Parsing macros/generic_test_sql/relationships.sql
+2022-06-27 14:08:04.690928 (MainThread): 14:08:04  Parsing macros/materializations/configs.sql
+2022-06-27 14:08:04.693304 (MainThread): 14:08:04  Parsing macros/materializations/hooks.sql
+2022-06-27 14:08:04.697056 (MainThread): 14:08:04  Parsing macros/materializations/models/table/table.sql
+2022-06-27 14:08:04.704621 (MainThread): 14:08:04  Parsing macros/materializations/models/table/create_table_as.sql
+2022-06-27 14:08:04.707467 (MainThread): 14:08:04  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-06-27 14:08:04.710202 (MainThread): 14:08:04  Parsing macros/materializations/models/view/helpers.sql
+2022-06-27 14:08:04.711538 (MainThread): 14:08:04  Parsing macros/materializations/models/view/create_view_as.sql
+2022-06-27 14:08:04.713910 (MainThread): 14:08:04  Parsing macros/materializations/models/view/view.sql
+2022-06-27 14:08:04.721062 (MainThread): 14:08:04  Parsing macros/materializations/models/incremental/incremental.sql
+2022-06-27 14:08:04.731134 (MainThread): 14:08:04  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-06-27 14:08:04.746768 (MainThread): 14:08:04  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-06-27 14:08:04.748304 (MainThread): 14:08:04  Parsing macros/materializations/models/incremental/merge.sql
+2022-06-27 14:08:04.759944 (MainThread): 14:08:04  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-06-27 14:08:04.764477 (MainThread): 14:08:04  Parsing macros/materializations/seeds/helpers.sql
+2022-06-27 14:08:04.793127 (Thread-31): handling poll request
+2022-06-27 14:08:04.793537 (Thread-31): 14:08:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a45f43a0>]}
+2022-06-27 14:08:04.794612 (Thread-31): sending response (<Response 12066 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:04.781254 (MainThread): 14:08:04  Parsing macros/materializations/seeds/seed.sql
+2022-06-27 14:08:04.787365 (MainThread): 14:08:04  Parsing macros/materializations/tests/helpers.sql
+2022-06-27 14:08:04.789146 (MainThread): 14:08:04  Parsing macros/materializations/tests/test.sql
+2022-06-27 14:08:04.793653 (MainThread): 14:08:04  Parsing macros/materializations/tests/where_subquery.sql
+2022-06-27 14:08:04.795571 (MainThread): 14:08:04  Parsing macros/materializations/snapshots/helpers.sql
+2022-06-27 14:08:04.806721 (MainThread): 14:08:04  Parsing macros/materializations/snapshots/strategies.sql
+2022-06-27 14:08:04.823693 (MainThread): 14:08:04  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-06-27 14:08:04.825323 (MainThread): 14:08:04  Parsing macros/materializations/snapshots/snapshot.sql
+2022-06-27 14:08:04.836841 (MainThread): 14:08:04  Parsing tests/generic/builtin.sql
+2022-06-27 14:08:05.056288 (MainThread): 14:08:05  1699: static parser successfully parsed staging/internal/stg_city_state.sql
+2022-06-27 14:08:05.069293 (MainThread): 14:08:05  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 14:08:05.071806 (MainThread): 14:08:05  1699: static parser successfully parsed staging/internal/dim_shipper.sql
+2022-06-27 14:08:05.073973 (MainThread): 14:08:05  1699: static parser successfully parsed staging/internal/dim_calendar.sql
+2022-06-27 14:08:05.076295 (MainThread): 14:08:05  1699: static parser successfully parsed staging/internal/stg_challenge_no_dups.sql
+2022-06-27 14:08:05.078725 (MainThread): 14:08:05  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 14:08:05.081146 (MainThread): 14:08:05  1699: static parser successfully parsed staging/internal/dim_carrier.sql
+2022-06-27 14:08:05.083280 (MainThread): 14:08:05  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 14:08:05.172167 (MainThread): 14:08:05  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f00114970>]}
+2022-06-27 14:08:05.199413 (MainThread): 14:08:05  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3f00134130>]}
+2022-06-27 14:08:05.199766 (MainThread): 14:08:05  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:08:05.201186 (MainThread): 14:08:05  
+2022-06-27 14:08:05.201587 (MainThread): 14:08:05  Acquiring new redshift connection "master"
+2022-06-27 14:08:05.202897 (ThreadPoolExecutor-0_0): 14:08:05  Acquiring new redshift connection "list_loadsmart"
+2022-06-27 14:08:05.213045 (ThreadPoolExecutor-0_0): 14:08:05  Using redshift connection "list_loadsmart"
+2022-06-27 14:08:05.213174 (ThreadPoolExecutor-0_0): 14:08:05  On list_loadsmart: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "connection_name": "list_loadsmart"} */
+
+    select distinct nspname from pg_namespace
+  
+2022-06-27 14:08:05.213266 (ThreadPoolExecutor-0_0): 14:08:05  Opening a new connection, currently in state init
+2022-06-27 14:08:05.213354 (ThreadPoolExecutor-0_0): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.235553 (ThreadPoolExecutor-0_0): 14:08:05  SQL status: SELECT in 0.02 seconds
+2022-06-27 14:08:05.236808 (ThreadPoolExecutor-0_0): 14:08:05  On list_loadsmart: Close
+2022-06-27 14:08:05.238426 (ThreadPoolExecutor-1_0): 14:08:05  Acquiring new redshift connection "list_loadsmart_dbt_gloureiro"
+2022-06-27 14:08:05.245099 (ThreadPoolExecutor-1_0): 14:08:05  Using redshift connection "list_loadsmart_dbt_gloureiro"
+2022-06-27 14:08:05.245218 (ThreadPoolExecutor-1_0): 14:08:05  On list_loadsmart_dbt_gloureiro: BEGIN
+2022-06-27 14:08:05.245306 (ThreadPoolExecutor-1_0): 14:08:05  Opening a new connection, currently in state closed
+2022-06-27 14:08:05.245388 (ThreadPoolExecutor-1_0): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.271363 (ThreadPoolExecutor-1_0): 14:08:05  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:05.271550 (ThreadPoolExecutor-1_0): 14:08:05  Using redshift connection "list_loadsmart_dbt_gloureiro"
+2022-06-27 14:08:05.271634 (ThreadPoolExecutor-1_0): 14:08:05  On list_loadsmart_dbt_gloureiro: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "connection_name": "list_loadsmart_dbt_gloureiro"} */
+select
+      'loadsmart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbt_gloureiro'
+    union all
+    select
+      'loadsmart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbt_gloureiro'
+  
+2022-06-27 14:08:05.288906 (ThreadPoolExecutor-1_0): 14:08:05  SQL status: SELECT in 0.02 seconds
+2022-06-27 14:08:05.290273 (ThreadPoolExecutor-1_0): 14:08:05  On list_loadsmart_dbt_gloureiro: ROLLBACK
+2022-06-27 14:08:05.292363 (ThreadPoolExecutor-1_0): 14:08:05  On list_loadsmart_dbt_gloureiro: Close
+2022-06-27 14:08:05.297259 (MainThread): 14:08:05  Using redshift connection "master"
+2022-06-27 14:08:05.297394 (MainThread): 14:08:05  On master: BEGIN
+2022-06-27 14:08:05.297494 (MainThread): 14:08:05  Opening a new connection, currently in state init
+2022-06-27 14:08:05.297579 (MainThread): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.323440 (MainThread): 14:08:05  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:05.323619 (MainThread): 14:08:05  Using redshift connection "master"
+2022-06-27 14:08:05.323704 (MainThread): 14:08:05  On master: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2022-06-27 14:08:05.352051 (MainThread): 14:08:05  SQL status: SELECT in 0.03 seconds
+2022-06-27 14:08:05.353493 (MainThread): 14:08:05  On master: ROLLBACK
+2022-06-27 14:08:05.355583 (MainThread): 14:08:05  Using redshift connection "master"
+2022-06-27 14:08:05.355707 (MainThread): 14:08:05  On master: BEGIN
+2022-06-27 14:08:05.359399 (MainThread): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.359537 (MainThread): 14:08:05  On master: COMMIT
+2022-06-27 14:08:05.359616 (MainThread): 14:08:05  Using redshift connection "master"
+2022-06-27 14:08:05.359692 (MainThread): 14:08:05  On master: COMMIT
+2022-06-27 14:08:05.361434 (MainThread): 14:08:05  SQL status: COMMIT in 0.0 seconds
+2022-06-27 14:08:05.361560 (MainThread): 14:08:05  On master: Close
+2022-06-27 14:08:05.362069 (MainThread): 14:08:05  Concurrency: 4 threads (target='default')
+2022-06-27 14:08:05.362196 (MainThread): 14:08:05  
+2022-06-27 14:08:05.364892 (Thread-1): 14:08:05  Began running node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:05.365194 (Thread-1): 14:08:05  1 of 7 START view model dbt_gloureiro.dim_us_cities............................. [RUN]
+2022-06-27 14:08:05.365504 (Thread-1): 14:08:05  Acquiring new redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.365610 (Thread-1): 14:08:05  Began compiling node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:05.365706 (Thread-1): 14:08:05  Compiling model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:05.368197 (Thread-1): 14:08:05  Writing injected SQL for node "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.368450 (Thread-2): 14:08:05  Began running node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:05.368698 (Thread-2): 14:08:05  2 of 7 START view model dbt_gloureiro.stg_challenge_no_dups..................... [RUN]
+2022-06-27 14:08:05.368976 (Thread-2): 14:08:05  Acquiring new redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.369066 (Thread-2): 14:08:05  Began compiling node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:05.369151 (Thread-2): 14:08:05  Compiling model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:05.371514 (Thread-2): 14:08:05  Writing injected SQL for node "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.385152 (Thread-1): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.385376 (Thread-1): 14:08:05  Began executing node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:05.390618 (Thread-2): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.390800 (Thread-2): 14:08:05  Began executing node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:05.425548 (Thread-2): 14:08:05  Writing runtime SQL for node "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.428349 (Thread-1): 14:08:05  Writing runtime SQL for node "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.441593 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.441774 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: BEGIN
+2022-06-27 14:08:05.441874 (Thread-1): 14:08:05  Opening a new connection, currently in state closed
+2022-06-27 14:08:05.441962 (Thread-1): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.446096 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.446265 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: BEGIN
+2022-06-27 14:08:05.446360 (Thread-2): 14:08:05  Opening a new connection, currently in state init
+2022-06-27 14:08:05.446448 (Thread-2): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.467983 (Thread-1): 14:08:05  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:05.468176 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.468266 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_us_cities"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."dim_us_cities__dbt_tmp" as (
+    select *,
+
+city || ',' ||state_code as city_state
+
+ from "loadsmart"."external"."us_cities"
+  ) ;
+
+2022-06-27 14:08:05.471100 (Thread-2): 14:08:05  SQL status: BEGIN in 0.02 seconds
+2022-06-27 14:08:05.471288 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.471373 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups__dbt_tmp" as (
+    select distinct * from "loadsmart"."internal"."data_challenge"
+  ) ;
+
+2022-06-27 14:08:05.477282 (Thread-1): 14:08:05  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:05.482702 (Thread-2): 14:08:05  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:05.486889 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.487018 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups" rename to "stg_challenge_no_dups__dbt_backup"
+2022-06-27 14:08:05.488009 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.488128 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_us_cities"} */
+alter table "loadsmart"."dbt_gloureiro"."dim_us_cities__dbt_tmp" rename to "dim_us_cities"
+2022-06-27 14:08:05.489712 (Thread-2): 14:08:05  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:05.492236 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.492348 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups__dbt_tmp" rename to "stg_challenge_no_dups"
+2022-06-27 14:08:05.492571 (Thread-1): 14:08:05  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:05.497657 (Thread-2): 14:08:05  SQL status: ALTER TABLE in 0.01 seconds
+2022-06-27 14:08:05.504861 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:05.504991 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.505070 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:05.505467 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:05.505588 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.505665 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:05.541221 (Thread-1): 14:08:05  SQL status: COMMIT in 0.04 seconds
+2022-06-27 14:08:05.541642 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.541752 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: BEGIN
+2022-06-27 14:08:05.544362 (Thread-1): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.549171 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.549301 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_us_cities"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."dim_us_cities__dbt_backup" cascade
+2022-06-27 14:08:05.551992 (Thread-1): 14:08:05  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:05.552779 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:05.552886 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.552963 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:05.577201 (Thread-2): 14:08:05  SQL status: COMMIT in 0.07 seconds
+2022-06-27 14:08:05.578093 (Thread-1): 14:08:05  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:05.578245 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:05.578327 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: BEGIN
+2022-06-27 14:08:05.580431 (Thread-1): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.580974 (Thread-1): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.581124 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: ROLLBACK
+2022-06-27 14:08:05.581338 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.581467 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: BEGIN
+2022-06-27 14:08:05.583012 (Thread-1): 14:08:05  On model.loadsmart_challenge.dim_us_cities: Close
+2022-06-27 14:08:05.583598 (Thread-1): 14:08:05  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3efcfc9e80>]}
+2022-06-27 14:08:05.583972 (Thread-1): 14:08:05  1 of 7 OK created view model dbt_gloureiro.dim_us_cities........................ [CREATE VIEW in 0.22s]
+2022-06-27 14:08:05.584097 (Thread-1): 14:08:05  Finished running node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:05.584518 (Thread-2): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.586061 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.586166 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups__dbt_backup" cascade
+2022-06-27 14:08:05.597692 (Thread-2): 14:08:05  SQL status: DROP VIEW in 0.01 seconds
+2022-06-27 14:08:05.598546 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:05.598659 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.598738 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:05.627624 (Thread-2): 14:08:05  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:05.627815 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:05.627898 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: BEGIN
+2022-06-27 14:08:05.630586 (Thread-2): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.631134 (Thread-2): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.631335 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: ROLLBACK
+2022-06-27 14:08:05.633155 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_challenge_no_dups: Close
+2022-06-27 14:08:05.633722 (Thread-2): 14:08:05  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3efcfe4e50>]}
+2022-06-27 14:08:05.634089 (Thread-2): 14:08:05  2 of 7 OK created view model dbt_gloureiro.stg_challenge_no_dups................ [CREATE VIEW in 0.26s]
+2022-06-27 14:08:05.634207 (Thread-2): 14:08:05  Finished running node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:05.635204 (Thread-4): 14:08:05  Began running node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:05.635472 (Thread-4): 14:08:05  3 of 7 START view model dbt_gloureiro.dim_carrier............................... [RUN]
+2022-06-27 14:08:05.635768 (Thread-4): 14:08:05  Acquiring new redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.635864 (Thread-4): 14:08:05  Began compiling node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:05.635955 (Thread-4): 14:08:05  Compiling model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:05.639559 (Thread-4): 14:08:05  Writing injected SQL for node "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.639822 (Thread-3): 14:08:05  Began running node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:05.640071 (Thread-3): 14:08:05  4 of 7 START view model dbt_gloureiro.dim_shipper............................... [RUN]
+2022-06-27 14:08:05.640345 (Thread-3): 14:08:05  Acquiring new redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.640438 (Thread-3): 14:08:05  Began compiling node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:05.640526 (Thread-3): 14:08:05  Compiling model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:05.642647 (Thread-3): 14:08:05  Writing injected SQL for node "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.642893 (Thread-1): 14:08:05  Began running node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:05.643121 (Thread-1): 14:08:05  5 of 7 START view model dbt_gloureiro.stg_city_state............................ [RUN]
+2022-06-27 14:08:05.643402 (Thread-1): 14:08:05  Acquiring new redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.643501 (Thread-1): 14:08:05  Began compiling node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:05.643585 (Thread-1): 14:08:05  Compiling model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:05.645595 (Thread-1): 14:08:05  Writing injected SQL for node "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.652446 (Thread-4): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.652595 (Thread-4): 14:08:05  Began executing node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:05.654660 (Thread-4): 14:08:05  Writing runtime SQL for node "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.656279 (Thread-3): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.656429 (Thread-3): 14:08:05  Began executing node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:05.658374 (Thread-3): 14:08:05  Writing runtime SQL for node "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.663911 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.664033 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: BEGIN
+2022-06-27 14:08:05.664122 (Thread-4): 14:08:05  Opening a new connection, currently in state init
+2022-06-27 14:08:05.664207 (Thread-4): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.665425 (Thread-1): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.665569 (Thread-1): 14:08:05  Began executing node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:05.667489 (Thread-1): 14:08:05  Writing runtime SQL for node "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.667786 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.667896 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: BEGIN
+2022-06-27 14:08:05.667981 (Thread-3): 14:08:05  Opening a new connection, currently in state init
+2022-06-27 14:08:05.668063 (Thread-3): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.682436 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.682567 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: BEGIN
+2022-06-27 14:08:05.682655 (Thread-1): 14:08:05  Opening a new connection, currently in state closed
+2022-06-27 14:08:05.682736 (Thread-1): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.692021 (Thread-4): 14:08:05  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:05.692165 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.692249 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_carrier"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."dim_carrier__dbt_tmp" as (
+    select 
+split_part(carrier_name, 'Carrier ', 2)::integer as carrier_id,
+carrier_name 
+from "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups"
+  ) ;
+
+2022-06-27 14:08:05.700697 (Thread-4): 14:08:05  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:05.702897 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.703002 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_carrier"} */
+alter table "loadsmart"."dbt_gloureiro"."dim_carrier__dbt_tmp" rename to "dim_carrier"
+2022-06-27 14:08:05.703267 (Thread-3): 14:08:05  SQL status: BEGIN in 0.04 seconds
+2022-06-27 14:08:05.703383 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.703461 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_shipper"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."dim_shipper__dbt_tmp" as (
+    select 
+split_part(shipper_name, 'Shipper ', 2)::integer as shipper_id,
+shipper_name 
+from "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups"
+  ) ;
+
+2022-06-27 14:08:05.706251 (Thread-4): 14:08:05  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:05.707929 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:05.708083 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.708213 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:05.710700 (Thread-3): 14:08:05  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:05.712596 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.712695 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_shipper"} */
+alter table "loadsmart"."dbt_gloureiro"."dim_shipper__dbt_tmp" rename to "dim_shipper"
+2022-06-27 14:08:05.716683 (Thread-3): 14:08:05  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:05.717717 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:05.717818 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.717895 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:05.725136 (Thread-1): 14:08:05  SQL status: BEGIN in 0.04 seconds
+2022-06-27 14:08:05.725292 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.725377 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_city_state"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_city_state__dbt_tmp" as (
+    select 
+loadsmart_id,
+split_part(lane, ' -> ', 1) as lane_from,
+split_part(lane, ' -> ', 2) as lane_to,
+split_part(lane_from, ',', 1) as city_from, 
+split_part(lane_from, ',', 2) as state_code_from,
+split_part(lane_to, ',', 1) as city_to, 
+split_part(lane_to, ',', 2) as state_code_to
+
+from "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups"
+  ) ;
+
+2022-06-27 14:08:05.733054 (Thread-1): 14:08:05  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:05.735537 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.735661 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_city_state"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_city_state__dbt_tmp" rename to "stg_city_state"
+2022-06-27 14:08:05.738925 (Thread-1): 14:08:05  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:05.740104 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:05.740217 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.740296 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:05.764108 (Thread-4): 14:08:05  SQL status: COMMIT in 0.06 seconds
+2022-06-27 14:08:05.764585 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.764722 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: BEGIN
+2022-06-27 14:08:05.766144 (Thread-3): 14:08:05  SQL status: COMMIT in 0.05 seconds
+2022-06-27 14:08:05.768317 (Thread-4): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.769981 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.770106 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_carrier"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."dim_carrier__dbt_backup" cascade
+2022-06-27 14:08:05.774957 (Thread-4): 14:08:05  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:05.775835 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:05.775946 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.776027 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:05.814822 (Thread-1): 14:08:05  SQL status: COMMIT in 0.07 seconds
+2022-06-27 14:08:05.815384 (Thread-4): 14:08:05  SQL status: COMMIT in 0.04 seconds
+2022-06-27 14:08:05.815531 (Thread-4): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:05.815616 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: BEGIN
+2022-06-27 14:08:05.817836 (Thread-4): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.818362 (Thread-4): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.818514 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: ROLLBACK
+2022-06-27 14:08:05.818756 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.818877 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: BEGIN
+2022-06-27 14:08:05.821304 (Thread-4): 14:08:05  On model.loadsmart_challenge.dim_carrier: Close
+2022-06-27 14:08:05.821495 (Thread-3): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.822971 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.823084 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_shipper"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."dim_shipper__dbt_backup" cascade
+2022-06-27 14:08:05.823601 (Thread-4): 14:08:05  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3efc79e430>]}
+2022-06-27 14:08:05.824033 (Thread-4): 14:08:05  3 of 7 OK created view model dbt_gloureiro.dim_carrier.......................... [CREATE VIEW in 0.19s]
+2022-06-27 14:08:05.824161 (Thread-4): 14:08:05  Finished running node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:05.825664 (Thread-3): 14:08:05  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:05.826530 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:05.826632 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.826710 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:05.855272 (Thread-3): 14:08:05  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:05.855473 (Thread-3): 14:08:05  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:05.855559 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: BEGIN
+2022-06-27 14:08:05.857630 (Thread-3): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.858184 (Thread-3): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.858334 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: ROLLBACK
+2022-06-27 14:08:05.858575 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.858703 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: BEGIN
+2022-06-27 14:08:05.861035 (Thread-3): 14:08:05  On model.loadsmart_challenge.dim_shipper: Close
+2022-06-27 14:08:05.861225 (Thread-1): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.862956 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.863067 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_city_state"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_city_state__dbt_backup" cascade
+2022-06-27 14:08:05.863695 (Thread-3): 14:08:05  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3efc79e400>]}
+2022-06-27 14:08:05.864066 (Thread-3): 14:08:05  4 of 7 OK created view model dbt_gloureiro.dim_shipper.......................... [CREATE VIEW in 0.22s]
+2022-06-27 14:08:05.864190 (Thread-3): 14:08:05  Finished running node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:05.865731 (Thread-1): 14:08:05  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:05.866528 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:05.866632 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.866712 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:05.893003 (Thread-1): 14:08:05  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:05.893201 (Thread-1): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:05.893314 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: BEGIN
+2022-06-27 14:08:05.895492 (Thread-1): 14:08:05  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:05.896040 (Thread-1): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.896189 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: ROLLBACK
+2022-06-27 14:08:05.898553 (Thread-1): 14:08:05  On model.loadsmart_challenge.stg_city_state: Close
+2022-06-27 14:08:05.899128 (Thread-1): 14:08:05  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3efc77e640>]}
+2022-06-27 14:08:05.899559 (Thread-1): 14:08:05  5 of 7 OK created view model dbt_gloureiro.stg_city_state....................... [CREATE VIEW in 0.26s]
+2022-06-27 14:08:05.899681 (Thread-1): 14:08:05  Finished running node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:05.900576 (Thread-2): 14:08:05  Began running node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:05.900849 (Thread-2): 14:08:05  6 of 7 START view model dbt_gloureiro.stg_join_lat_long_to...................... [RUN]
+2022-06-27 14:08:05.901126 (Thread-2): 14:08:05  Acquiring new redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:05.901227 (Thread-2): 14:08:05  Began compiling node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:05.901323 (Thread-2): 14:08:05  Compiling model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:05.904474 (Thread-2): 14:08:05  Writing injected SQL for node "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:05.922057 (Thread-2): 14:08:05  finished collecting timing info
+2022-06-27 14:08:05.922282 (Thread-2): 14:08:05  Began executing node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:05.926152 (Thread-2): 14:08:05  Writing runtime SQL for node "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:05.941919 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:05.942098 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_join_lat_long_to: BEGIN
+2022-06-27 14:08:05.942195 (Thread-2): 14:08:05  Opening a new connection, currently in state closed
+2022-06-27 14:08:05.942283 (Thread-2): 14:08:05  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:05.978293 (Thread-2): 14:08:05  SQL status: BEGIN in 0.04 seconds
+2022-06-27 14:08:05.978481 (Thread-2): 14:08:05  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:05.978568 (Thread-2): 14:08:05  On model.loadsmart_challenge.stg_join_lat_long_to: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_to"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to__dbt_tmp" as (
+    select 
+loadsmart_id,
+lane_to,
+lane_from,
+latitude as lat_to,
+longitude as long_to
+from "loadsmart"."dbt_gloureiro"."stg_city_state" 
+left join "loadsmart"."dbt_gloureiro"."dim_us_cities" 
+on "loadsmart"."dbt_gloureiro"."dim_us_cities".city_state="loadsmart"."dbt_gloureiro"."stg_city_state".lane_to
+  ) ;
+
+2022-06-27 14:08:05.984580 (Thread-2): 14:08:05  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:06.039657 (Thread-2): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:06.039812 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_to"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to__dbt_tmp" rename to "stg_join_lat_long_to"
+2022-06-27 14:08:06.042457 (Thread-2): 14:08:06  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:06.043762 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:06.043888 (Thread-2): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:06.043967 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:06.071719 (Thread-2): 14:08:06  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:06.072072 (Thread-2): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:06.072166 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: BEGIN
+2022-06-27 14:08:06.074252 (Thread-2): 14:08:06  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:06.075923 (Thread-2): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:06.076039 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_to"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to__dbt_backup" cascade
+2022-06-27 14:08:06.077997 (Thread-2): 14:08:06  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:06.078803 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:06.078905 (Thread-2): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:06.078984 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:06.101510 (Thread-2): 14:08:06  SQL status: COMMIT in 0.02 seconds
+2022-06-27 14:08:06.101690 (Thread-2): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:06.101771 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: BEGIN
+2022-06-27 14:08:06.103938 (Thread-2): 14:08:06  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:06.104475 (Thread-2): 14:08:06  finished collecting timing info
+2022-06-27 14:08:06.104627 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: ROLLBACK
+2022-06-27 14:08:06.106353 (Thread-2): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_to: Close
+2022-06-27 14:08:06.106955 (Thread-2): 14:08:06  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3efc701b20>]}
+2022-06-27 14:08:06.107402 (Thread-2): 14:08:06  6 of 7 OK created view model dbt_gloureiro.stg_join_lat_long_to................. [CREATE VIEW in 0.21s]
+2022-06-27 14:08:06.107543 (Thread-2): 14:08:06  Finished running node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:06.108359 (Thread-3): 14:08:06  Began running node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:06.108606 (Thread-3): 14:08:06  7 of 7 START view model dbt_gloureiro.stg_join_lat_long_from.................... [RUN]
+2022-06-27 14:08:06.108887 (Thread-3): 14:08:06  Acquiring new redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.108987 (Thread-3): 14:08:06  Began compiling node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:06.109084 (Thread-3): 14:08:06  Compiling model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:06.112221 (Thread-3): 14:08:06  Writing injected SQL for node "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.126579 (Thread-3): 14:08:06  finished collecting timing info
+2022-06-27 14:08:06.126818 (Thread-3): 14:08:06  Began executing node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:06.129558 (Thread-3): 14:08:06  Writing runtime SQL for node "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.144797 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.144981 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: BEGIN
+2022-06-27 14:08:06.145080 (Thread-3): 14:08:06  Opening a new connection, currently in state closed
+2022-06-27 14:08:06.145168 (Thread-3): 14:08:06  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:06.165141 (Thread-3): 14:08:06  SQL status: BEGIN in 0.02 seconds
+2022-06-27 14:08:06.165331 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.165426 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_from"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_join_lat_long_from__dbt_tmp" as (
+    select 
+loadsmart_id,
+
+lane_from,
+latitude as lat_from,
+longitude as long_from,
+
+lane_to,
+lat_to,
+long_to
+
+from "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to" 
+left join "loadsmart"."dbt_gloureiro"."dim_us_cities" 
+on "loadsmart"."dbt_gloureiro"."dim_us_cities".city_state="loadsmart"."dbt_gloureiro"."stg_join_lat_long_to".lane_from
+  ) ;
+
+2022-06-27 14:08:06.171580 (Thread-3): 14:08:06  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:06.174018 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.174152 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_from"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_join_lat_long_from__dbt_tmp" rename to "stg_join_lat_long_from"
+2022-06-27 14:08:06.176434 (Thread-3): 14:08:06  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:06.177621 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:06.177737 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.177815 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:06.205860 (Thread-3): 14:08:06  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:06.206245 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.206348 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: BEGIN
+2022-06-27 14:08:06.208656 (Thread-3): 14:08:06  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:06.210356 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.210474 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_from"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_join_lat_long_from__dbt_backup" cascade
+2022-06-27 14:08:06.212445 (Thread-3): 14:08:06  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:06.213602 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:06.213715 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.213796 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:06.225827 (Thread-32): handling poll request
+2022-06-27 14:08:06.226235 (Thread-32): 14:08:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a45add60>]}
+2022-06-27 14:08:06.229866 (Thread-32): sending response (<Response 139592 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:06.237755 (Thread-3): 14:08:06  SQL status: COMMIT in 0.02 seconds
+2022-06-27 14:08:06.237959 (Thread-3): 14:08:06  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:06.238048 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: BEGIN
+2022-06-27 14:08:06.240163 (Thread-3): 14:08:06  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:06.240735 (Thread-3): 14:08:06  finished collecting timing info
+2022-06-27 14:08:06.240889 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: ROLLBACK
+2022-06-27 14:08:06.242644 (Thread-3): 14:08:06  On model.loadsmart_challenge.stg_join_lat_long_from: Close
+2022-06-27 14:08:06.243325 (Thread-3): 14:08:06  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'def20481-9f4a-41c0-8c8a-22127c342f3f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f3efd86f340>]}
+2022-06-27 14:08:06.243697 (Thread-3): 14:08:06  7 of 7 OK created view model dbt_gloureiro.stg_join_lat_long_from............... [CREATE VIEW in 0.13s]
+2022-06-27 14:08:06.243822 (Thread-3): 14:08:06  Finished running node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:06.245368 (MainThread): 14:08:06  Acquiring new redshift connection "master"
+2022-06-27 14:08:06.245554 (MainThread): 14:08:06  Using redshift connection "master"
+2022-06-27 14:08:06.245649 (MainThread): 14:08:06  On master: BEGIN
+2022-06-27 14:08:06.245746 (MainThread): 14:08:06  Opening a new connection, currently in state closed
+2022-06-27 14:08:06.245836 (MainThread): 14:08:06  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:06.271284 (MainThread): 14:08:06  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:06.271485 (MainThread): 14:08:06  On master: COMMIT
+2022-06-27 14:08:06.271579 (MainThread): 14:08:06  Using redshift connection "master"
+2022-06-27 14:08:06.271667 (MainThread): 14:08:06  On master: COMMIT
+2022-06-27 14:08:06.273423 (MainThread): 14:08:06  SQL status: COMMIT in 0.0 seconds
+2022-06-27 14:08:06.273583 (MainThread): 14:08:06  On master: Close
+2022-06-27 14:08:06.274185 (MainThread): 14:08:06  
+2022-06-27 14:08:06.274342 (MainThread): 14:08:06  Finished running 7 view models in 1.07s.
+2022-06-27 14:08:06.274440 (MainThread): 14:08:06  Connection 'master' was properly closed.
+2022-06-27 14:08:06.274517 (MainThread): 14:08:06  Connection 'model.loadsmart_challenge.stg_city_state' was properly closed.
+2022-06-27 14:08:06.274592 (MainThread): 14:08:06  Connection 'model.loadsmart_challenge.stg_join_lat_long_to' was properly closed.
+2022-06-27 14:08:06.274663 (MainThread): 14:08:06  Connection 'model.loadsmart_challenge.dim_carrier' was properly closed.
+2022-06-27 14:08:06.274729 (MainThread): 14:08:06  Connection 'model.loadsmart_challenge.stg_join_lat_long_from' was properly closed.
+2022-06-27 14:08:06.346714 (MainThread): 14:08:06  
+2022-06-27 14:08:06.346947 (MainThread): 14:08:06  Completed successfully
+2022-06-27 14:08:06.347060 (MainThread): 14:08:06  
+2022-06-27 14:08:06.347149 (MainThread): 14:08:06  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+2022-06-27 14:08:07.610219 (Thread-33): handling poll request
+2022-06-27 14:08:07.610638 (Thread-33): 14:08:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a453bf40>]}
+2022-06-27 14:08:07.612179 (Thread-33): sending response (<Response 29824 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:08.426308 (Thread-34): handling status request
+2022-06-27 14:08:08.426727 (Thread-34): 14:08:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a453f400>]}
+2022-06-27 14:08:08.427296 (Thread-34): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:08.522685 (Thread-35): handling status request
+2022-06-27 14:08:08.523094 (Thread-35): 14:08:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a453f4c0>]}
+2022-06-27 14:08:08.548613 (Thread-35): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:10.058530 (Thread-36): handling status request
+2022-06-27 14:08:10.058957 (Thread-36): 14:08:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a453fca0>]}
+2022-06-27 14:08:10.059491 (Thread-36): sending response (<Response 1219 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:10.066355 (Thread-37): handling list request
+2022-06-27 14:08:10.066709 (Thread-37): 14:08:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a453fdf0>]}
+2022-06-27 14:08:10.098101 (Thread-37): 14:08:10  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a454cc40>]}
+2022-06-27 14:08:10.098521 (Thread-37): 14:08:10  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:08:10.101767 (Thread-37): sending response (<Response 3587 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:47.304398 (Thread-38): 14:08:47  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-06-27 14:08:47.304758 (Thread-38): 14:08:47  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdfbfb20>]}
+2022-06-27 14:08:47.386129 (Thread-38): 14:08:47  Parsing macros/relations.sql
+2022-06-27 14:08:47.387062 (Thread-38): 14:08:47  Parsing macros/adapters.sql
+2022-06-27 14:08:47.416561 (Thread-38): 14:08:47  Parsing macros/catalog.sql
+2022-06-27 14:08:47.429024 (Thread-38): 14:08:47  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:08:47.429744 (Thread-38): 14:08:47  Parsing macros/relations.sql
+2022-06-27 14:08:47.431064 (Thread-38): 14:08:47  Parsing macros/adapters.sql
+2022-06-27 14:08:47.454925 (Thread-38): 14:08:47  Parsing macros/catalog.sql
+2022-06-27 14:08:47.457412 (Thread-38): 14:08:47  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:08:47.459134 (Thread-38): 14:08:47  Parsing macros/adapters/metadata.sql
+2022-06-27 14:08:47.466518 (Thread-38): 14:08:47  Parsing macros/adapters/columns.sql
+2022-06-27 14:08:47.476829 (Thread-38): 14:08:47  Parsing macros/adapters/freshness.sql
+2022-06-27 14:08:47.479825 (Thread-38): 14:08:47  Parsing macros/adapters/persist_docs.sql
+2022-06-27 14:08:47.484372 (Thread-38): 14:08:47  Parsing macros/adapters/relation.sql
+2022-06-27 14:08:47.494207 (Thread-38): 14:08:47  Parsing macros/adapters/schema.sql
+2022-06-27 14:08:47.496510 (Thread-38): 14:08:47  Parsing macros/adapters/indexes.sql
+2022-06-27 14:08:47.499359 (Thread-38): 14:08:47  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-06-27 14:08:47.501961 (Thread-38): 14:08:47  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-06-27 14:08:47.503551 (Thread-38): 14:08:47  Parsing macros/get_custom_name/get_custom_database.sql
+2022-06-27 14:08:47.505188 (Thread-38): 14:08:47  Parsing macros/etc/datetime.sql
+2022-06-27 14:08:47.513747 (Thread-38): 14:08:47  Parsing macros/etc/statement.sql
+2022-06-27 14:08:47.518313 (Thread-38): 14:08:47  Parsing macros/generic_test_sql/unique.sql
+2022-06-27 14:08:47.519082 (Thread-38): 14:08:47  Parsing macros/generic_test_sql/not_null.sql
+2022-06-27 14:08:47.519719 (Thread-38): 14:08:47  Parsing macros/generic_test_sql/accepted_values.sql
+2022-06-27 14:08:47.521158 (Thread-38): 14:08:47  Parsing macros/generic_test_sql/relationships.sql
+2022-06-27 14:08:47.522123 (Thread-38): 14:08:47  Parsing macros/materializations/configs.sql
+2022-06-27 14:08:47.524518 (Thread-38): 14:08:47  Parsing macros/materializations/hooks.sql
+2022-06-27 14:08:47.528455 (Thread-38): 14:08:47  Parsing macros/materializations/models/table/table.sql
+2022-06-27 14:08:47.536062 (Thread-38): 14:08:47  Parsing macros/materializations/models/table/create_table_as.sql
+2022-06-27 14:08:47.539088 (Thread-38): 14:08:47  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-06-27 14:08:47.542023 (Thread-38): 14:08:47  Parsing macros/materializations/models/view/helpers.sql
+2022-06-27 14:08:47.543424 (Thread-38): 14:08:47  Parsing macros/materializations/models/view/create_view_as.sql
+2022-06-27 14:08:47.545787 (Thread-38): 14:08:47  Parsing macros/materializations/models/view/view.sql
+2022-06-27 14:08:47.552984 (Thread-38): 14:08:47  Parsing macros/materializations/models/incremental/incremental.sql
+2022-06-27 14:08:47.563001 (Thread-38): 14:08:47  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-06-27 14:08:47.578759 (Thread-38): 14:08:47  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-06-27 14:08:47.580366 (Thread-38): 14:08:47  Parsing macros/materializations/models/incremental/merge.sql
+2022-06-27 14:08:47.591590 (Thread-38): 14:08:47  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-06-27 14:08:47.596053 (Thread-38): 14:08:47  Parsing macros/materializations/seeds/helpers.sql
+2022-06-27 14:08:47.613357 (Thread-38): 14:08:47  Parsing macros/materializations/seeds/seed.sql
+2022-06-27 14:08:47.619614 (Thread-38): 14:08:47  Parsing macros/materializations/tests/helpers.sql
+2022-06-27 14:08:47.621443 (Thread-38): 14:08:47  Parsing macros/materializations/tests/test.sql
+2022-06-27 14:08:47.625972 (Thread-38): 14:08:47  Parsing macros/materializations/tests/where_subquery.sql
+2022-06-27 14:08:47.627842 (Thread-38): 14:08:47  Parsing macros/materializations/snapshots/helpers.sql
+2022-06-27 14:08:47.640033 (Thread-38): 14:08:47  Parsing macros/materializations/snapshots/strategies.sql
+2022-06-27 14:08:47.658260 (Thread-38): 14:08:47  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-06-27 14:08:47.659998 (Thread-38): 14:08:47  Parsing macros/materializations/snapshots/snapshot.sql
+2022-06-27 14:08:47.672545 (Thread-38): 14:08:47  Parsing tests/generic/builtin.sql
+2022-06-27 14:08:47.884836 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/internal/stg_city_state.sql
+2022-06-27 14:08:47.898186 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 14:08:47.900705 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/internal/dim_shipper.sql
+2022-06-27 14:08:47.902828 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/internal/dim_calendar.sql
+2022-06-27 14:08:47.904985 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/internal/stg_challenge_no_dups.sql
+2022-06-27 14:08:47.907474 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 14:08:47.909645 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/internal/dim_carrier.sql
+2022-06-27 14:08:47.912206 (Thread-38): 14:08:47  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 14:08:47.993508 (Thread-38): 14:08:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c1f1e20>]}
+2022-06-27 14:08:48.223192 (Thread-39): handling status request
+2022-06-27 14:08:48.223601 (Thread-39): 14:08:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c1ef1c0>]}
+2022-06-27 14:08:48.224476 (Thread-39): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:48.323030 (Thread-40): handling status request
+2022-06-27 14:08:48.323459 (Thread-40): 14:08:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c1ef190>]}
+2022-06-27 14:08:48.324377 (Thread-40): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:49.373166 (Thread-41): handling status request
+2022-06-27 14:08:49.373587 (Thread-41): 14:08:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a459f040>]}
+2022-06-27 14:08:49.374488 (Thread-41): sending response (<Response 17456 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:49.422948 (Thread-42): handling list request
+2022-06-27 14:08:49.423315 (Thread-42): 14:08:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a462fbe0>]}
+2022-06-27 14:08:49.449853 (Thread-42): 14:08:49  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c1ef850>]}
+2022-06-27 14:08:49.450157 (Thread-42): 14:08:49  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:08:49.452609 (Thread-42): sending response (<Response 3586 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:52.939480 (Thread-43): handling status request
+2022-06-27 14:08:52.939938 (Thread-43): 14:08:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4487550>]}
+2022-06-27 14:08:52.940839 (Thread-43): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:53.407066 (Thread-44): handling status request
+2022-06-27 14:08:53.407512 (Thread-44): 14:08:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a405f520>]}
+2022-06-27 14:08:53.408380 (Thread-44): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:53.415923 (Thread-45): handling cli_args request
+2022-06-27 14:08:53.416211 (Thread-45): 14:08:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a405f6a0>]}
+2022-06-27 14:08:55.597749 (Thread-45): sending response (<Response 138 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:55.657102 (MainThread): 14:08:55  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-06-27 14:08:55.657542 (MainThread): 14:08:55  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ea9ea82b0>]}
+2022-06-27 14:08:55.723111 (MainThread): 14:08:55  Parsing macros/relations.sql
+2022-06-27 14:08:55.724010 (MainThread): 14:08:55  Parsing macros/adapters.sql
+2022-06-27 14:08:55.753112 (MainThread): 14:08:55  Parsing macros/catalog.sql
+2022-06-27 14:08:55.765300 (MainThread): 14:08:55  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:08:55.765966 (MainThread): 14:08:55  Parsing macros/relations.sql
+2022-06-27 14:08:55.767291 (MainThread): 14:08:55  Parsing macros/adapters.sql
+2022-06-27 14:08:55.789004 (MainThread): 14:08:55  Parsing macros/catalog.sql
+2022-06-27 14:08:55.791140 (MainThread): 14:08:55  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:08:55.792733 (MainThread): 14:08:55  Parsing macros/adapters/metadata.sql
+2022-06-27 14:08:55.799879 (MainThread): 14:08:55  Parsing macros/adapters/columns.sql
+2022-06-27 14:08:55.809919 (MainThread): 14:08:55  Parsing macros/adapters/freshness.sql
+2022-06-27 14:08:55.812804 (MainThread): 14:08:55  Parsing macros/adapters/persist_docs.sql
+2022-06-27 14:08:55.817202 (MainThread): 14:08:55  Parsing macros/adapters/relation.sql
+2022-06-27 14:08:55.826737 (MainThread): 14:08:55  Parsing macros/adapters/schema.sql
+2022-06-27 14:08:55.828862 (MainThread): 14:08:55  Parsing macros/adapters/indexes.sql
+2022-06-27 14:08:55.831592 (MainThread): 14:08:55  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-06-27 14:08:55.834006 (MainThread): 14:08:55  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-06-27 14:08:55.835561 (MainThread): 14:08:55  Parsing macros/get_custom_name/get_custom_database.sql
+2022-06-27 14:08:55.837095 (MainThread): 14:08:55  Parsing macros/etc/datetime.sql
+2022-06-27 14:08:55.845368 (MainThread): 14:08:55  Parsing macros/etc/statement.sql
+2022-06-27 14:08:55.849846 (MainThread): 14:08:55  Parsing macros/generic_test_sql/unique.sql
+2022-06-27 14:08:55.850547 (MainThread): 14:08:55  Parsing macros/generic_test_sql/not_null.sql
+2022-06-27 14:08:55.851201 (MainThread): 14:08:55  Parsing macros/generic_test_sql/accepted_values.sql
+2022-06-27 14:08:55.852554 (MainThread): 14:08:55  Parsing macros/generic_test_sql/relationships.sql
+2022-06-27 14:08:55.853390 (MainThread): 14:08:55  Parsing macros/materializations/configs.sql
+2022-06-27 14:08:55.855712 (MainThread): 14:08:55  Parsing macros/materializations/hooks.sql
+2022-06-27 14:08:55.859540 (MainThread): 14:08:55  Parsing macros/materializations/models/table/table.sql
+2022-06-27 14:08:55.867022 (MainThread): 14:08:55  Parsing macros/materializations/models/table/create_table_as.sql
+2022-06-27 14:08:55.869867 (MainThread): 14:08:55  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-06-27 14:08:55.872573 (MainThread): 14:08:55  Parsing macros/materializations/models/view/helpers.sql
+2022-06-27 14:08:55.873852 (MainThread): 14:08:55  Parsing macros/materializations/models/view/create_view_as.sql
+2022-06-27 14:08:55.876124 (MainThread): 14:08:55  Parsing macros/materializations/models/view/view.sql
+2022-06-27 14:08:55.883387 (MainThread): 14:08:55  Parsing macros/materializations/models/incremental/incremental.sql
+2022-06-27 14:08:55.893478 (MainThread): 14:08:55  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-06-27 14:08:55.908919 (MainThread): 14:08:55  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-06-27 14:08:55.910390 (MainThread): 14:08:55  Parsing macros/materializations/models/incremental/merge.sql
+2022-06-27 14:08:55.921575 (MainThread): 14:08:55  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-06-27 14:08:55.925957 (MainThread): 14:08:55  Parsing macros/materializations/seeds/helpers.sql
+2022-06-27 14:08:55.942212 (MainThread): 14:08:55  Parsing macros/materializations/seeds/seed.sql
+2022-06-27 14:08:55.948124 (MainThread): 14:08:55  Parsing macros/materializations/tests/helpers.sql
+2022-06-27 14:08:55.950054 (MainThread): 14:08:55  Parsing macros/materializations/tests/test.sql
+2022-06-27 14:08:55.954337 (MainThread): 14:08:55  Parsing macros/materializations/tests/where_subquery.sql
+2022-06-27 14:08:55.956239 (MainThread): 14:08:55  Parsing macros/materializations/snapshots/helpers.sql
+2022-06-27 14:08:55.967367 (MainThread): 14:08:55  Parsing macros/materializations/snapshots/strategies.sql
+2022-06-27 14:08:55.986960 (MainThread): 14:08:55  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-06-27 14:08:55.989456 (MainThread): 14:08:55  Parsing macros/materializations/snapshots/snapshot.sql
+2022-06-27 14:08:56.000892 (MainThread): 14:08:56  Parsing tests/generic/builtin.sql
+2022-06-27 14:08:56.015070 (Thread-46): handling poll request
+2022-06-27 14:08:56.015486 (Thread-46): 14:08:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a44a3190>]}
+2022-06-27 14:08:56.016697 (Thread-46): sending response (<Response 14706 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:56.193539 (MainThread): 14:08:56  1699: static parser successfully parsed staging/internal/stg_city_state.sql
+2022-06-27 14:08:56.205892 (MainThread): 14:08:56  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 14:08:56.208183 (MainThread): 14:08:56  1699: static parser successfully parsed staging/internal/dim_shipper.sql
+2022-06-27 14:08:56.210305 (MainThread): 14:08:56  1699: static parser successfully parsed staging/internal/dim_calendar.sql
+2022-06-27 14:08:56.212598 (MainThread): 14:08:56  1699: static parser successfully parsed staging/internal/stg_challenge_no_dups.sql
+2022-06-27 14:08:56.215047 (MainThread): 14:08:56  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 14:08:56.217407 (MainThread): 14:08:56  1699: static parser successfully parsed staging/internal/dim_carrier.sql
+2022-06-27 14:08:56.219541 (MainThread): 14:08:56  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 14:08:56.298307 (MainThread): 14:08:56  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ea9d50bb0>]}
+2022-06-27 14:08:56.328964 (MainThread): 14:08:56  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ea9d8de80>]}
+2022-06-27 14:08:56.329268 (MainThread): 14:08:56  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:08:56.330500 (MainThread): 14:08:56  
+2022-06-27 14:08:56.330827 (MainThread): 14:08:56  Acquiring new redshift connection "master"
+2022-06-27 14:08:56.332108 (ThreadPoolExecutor-0_0): 14:08:56  Acquiring new redshift connection "list_loadsmart"
+2022-06-27 14:08:56.342068 (ThreadPoolExecutor-0_0): 14:08:56  Using redshift connection "list_loadsmart"
+2022-06-27 14:08:56.342178 (ThreadPoolExecutor-0_0): 14:08:56  On list_loadsmart: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "connection_name": "list_loadsmart"} */
+
+    select distinct nspname from pg_namespace
+  
+2022-06-27 14:08:56.342266 (ThreadPoolExecutor-0_0): 14:08:56  Opening a new connection, currently in state init
+2022-06-27 14:08:56.342350 (ThreadPoolExecutor-0_0): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.363817 (ThreadPoolExecutor-0_0): 14:08:56  SQL status: SELECT in 0.02 seconds
+2022-06-27 14:08:56.364962 (ThreadPoolExecutor-0_0): 14:08:56  On list_loadsmart: Close
+2022-06-27 14:08:56.366392 (ThreadPoolExecutor-1_0): 14:08:56  Acquiring new redshift connection "list_loadsmart_dbt_gloureiro"
+2022-06-27 14:08:56.372959 (ThreadPoolExecutor-1_0): 14:08:56  Using redshift connection "list_loadsmart_dbt_gloureiro"
+2022-06-27 14:08:56.373066 (ThreadPoolExecutor-1_0): 14:08:56  On list_loadsmart_dbt_gloureiro: BEGIN
+2022-06-27 14:08:56.373150 (ThreadPoolExecutor-1_0): 14:08:56  Opening a new connection, currently in state closed
+2022-06-27 14:08:56.373232 (ThreadPoolExecutor-1_0): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.398141 (ThreadPoolExecutor-1_0): 14:08:56  SQL status: BEGIN in 0.02 seconds
+2022-06-27 14:08:56.398273 (ThreadPoolExecutor-1_0): 14:08:56  Using redshift connection "list_loadsmart_dbt_gloureiro"
+2022-06-27 14:08:56.398354 (ThreadPoolExecutor-1_0): 14:08:56  On list_loadsmart_dbt_gloureiro: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "connection_name": "list_loadsmart_dbt_gloureiro"} */
+select
+      'loadsmart' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'dbt_gloureiro'
+    union all
+    select
+      'loadsmart' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'dbt_gloureiro'
+  
+2022-06-27 14:08:56.415202 (ThreadPoolExecutor-1_0): 14:08:56  SQL status: SELECT in 0.02 seconds
+2022-06-27 14:08:56.416457 (ThreadPoolExecutor-1_0): 14:08:56  On list_loadsmart_dbt_gloureiro: ROLLBACK
+2022-06-27 14:08:56.418402 (ThreadPoolExecutor-1_0): 14:08:56  On list_loadsmart_dbt_gloureiro: Close
+2022-06-27 14:08:56.423527 (MainThread): 14:08:56  Using redshift connection "master"
+2022-06-27 14:08:56.423647 (MainThread): 14:08:56  On master: BEGIN
+2022-06-27 14:08:56.423732 (MainThread): 14:08:56  Opening a new connection, currently in state init
+2022-06-27 14:08:56.423813 (MainThread): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.447617 (MainThread): 14:08:56  SQL status: BEGIN in 0.02 seconds
+2022-06-27 14:08:56.447749 (MainThread): 14:08:56  Using redshift connection "master"
+2022-06-27 14:08:56.447833 (MainThread): 14:08:56  On master: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2022-06-27 14:08:56.476041 (MainThread): 14:08:56  SQL status: SELECT in 0.03 seconds
+2022-06-27 14:08:56.477427 (MainThread): 14:08:56  On master: ROLLBACK
+2022-06-27 14:08:56.479345 (MainThread): 14:08:56  Using redshift connection "master"
+2022-06-27 14:08:56.479449 (MainThread): 14:08:56  On master: BEGIN
+2022-06-27 14:08:56.482939 (MainThread): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.483050 (MainThread): 14:08:56  On master: COMMIT
+2022-06-27 14:08:56.483123 (MainThread): 14:08:56  Using redshift connection "master"
+2022-06-27 14:08:56.483219 (MainThread): 14:08:56  On master: COMMIT
+2022-06-27 14:08:56.484992 (MainThread): 14:08:56  SQL status: COMMIT in 0.0 seconds
+2022-06-27 14:08:56.485103 (MainThread): 14:08:56  On master: Close
+2022-06-27 14:08:56.485565 (MainThread): 14:08:56  Concurrency: 4 threads (target='default')
+2022-06-27 14:08:56.485684 (MainThread): 14:08:56  
+2022-06-27 14:08:56.488284 (Thread-1): 14:08:56  Began running node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:56.488572 (Thread-1): 14:08:56  1 of 7 START view model dbt_gloureiro.dim_us_cities............................. [RUN]
+2022-06-27 14:08:56.488848 (Thread-1): 14:08:56  Acquiring new redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.488946 (Thread-1): 14:08:56  Began compiling node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:56.489038 (Thread-1): 14:08:56  Compiling model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:56.491446 (Thread-1): 14:08:56  Writing injected SQL for node "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.491683 (Thread-2): 14:08:56  Began running node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:56.491953 (Thread-2): 14:08:56  2 of 7 START view model dbt_gloureiro.stg_challenge_no_dups..................... [RUN]
+2022-06-27 14:08:56.492220 (Thread-2): 14:08:56  Acquiring new redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.492309 (Thread-2): 14:08:56  Began compiling node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:56.492392 (Thread-2): 14:08:56  Compiling model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:56.494462 (Thread-2): 14:08:56  Writing injected SQL for node "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.510261 (Thread-2): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.510417 (Thread-2): 14:08:56  Began executing node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:56.515422 (Thread-1): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.515568 (Thread-1): 14:08:56  Began executing node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:56.547747 (Thread-2): 14:08:56  Writing runtime SQL for node "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.548838 (Thread-1): 14:08:56  Writing runtime SQL for node "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.563290 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.563418 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: BEGIN
+2022-06-27 14:08:56.563509 (Thread-2): 14:08:56  Opening a new connection, currently in state init
+2022-06-27 14:08:56.563593 (Thread-2): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.564547 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.564670 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: BEGIN
+2022-06-27 14:08:56.564753 (Thread-1): 14:08:56  Opening a new connection, currently in state closed
+2022-06-27 14:08:56.564830 (Thread-1): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.589771 (Thread-1): 14:08:56  SQL status: BEGIN in 0.02 seconds
+2022-06-27 14:08:56.589904 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.589985 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_us_cities"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."dim_us_cities__dbt_tmp" as (
+    select *,
+
+city || ',' ||state_code as city_state
+
+ from "loadsmart"."external"."us_cities"
+  ) ;
+
+2022-06-27 14:08:56.590397 (Thread-2): 14:08:56  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:56.590524 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.590604 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups__dbt_tmp" as (
+    select distinct * from "loadsmart"."internal"."data_challenge"
+  ) ;
+
+2022-06-27 14:08:56.599716 (Thread-1): 14:08:56  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:56.605699 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.605808 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_us_cities"} */
+alter table "loadsmart"."dbt_gloureiro"."dim_us_cities" rename to "dim_us_cities__dbt_backup"
+2022-06-27 14:08:56.605968 (Thread-2): 14:08:56  SQL status: CREATE VIEW in 0.02 seconds
+2022-06-27 14:08:56.607974 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.608091 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups" rename to "stg_challenge_no_dups__dbt_backup"
+2022-06-27 14:08:56.608348 (Thread-1): 14:08:56  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:56.610297 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.610444 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_us_cities"} */
+alter table "loadsmart"."dbt_gloureiro"."dim_us_cities__dbt_tmp" rename to "dim_us_cities"
+2022-06-27 14:08:56.611030 (Thread-2): 14:08:56  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:56.613023 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.613124 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups__dbt_tmp" rename to "stg_challenge_no_dups"
+2022-06-27 14:08:56.613355 (Thread-1): 14:08:56  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:56.620611 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:56.620714 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.620790 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:56.620936 (Thread-2): 14:08:56  SQL status: ALTER TABLE in 0.01 seconds
+2022-06-27 14:08:56.621891 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:56.621988 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.622063 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:56.670766 (Thread-1): 14:08:56  SQL status: COMMIT in 0.05 seconds
+2022-06-27 14:08:56.671114 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.671281 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: BEGIN
+2022-06-27 14:08:56.671655 (Thread-2): 14:08:56  SQL status: COMMIT in 0.05 seconds
+2022-06-27 14:08:56.673514 (Thread-1): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.679131 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.679266 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_us_cities"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."dim_us_cities__dbt_backup" cascade
+2022-06-27 14:08:56.685574 (Thread-1): 14:08:56  SQL status: DROP VIEW in 0.01 seconds
+2022-06-27 14:08:56.686275 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:56.686373 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.686449 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: COMMIT
+2022-06-27 14:08:56.712139 (Thread-1): 14:08:56  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:56.712257 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_us_cities"
+2022-06-27 14:08:56.712332 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: BEGIN
+2022-06-27 14:08:56.714469 (Thread-1): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.714916 (Thread-1): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.715052 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: ROLLBACK
+2022-06-27 14:08:56.715332 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.715435 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: BEGIN
+2022-06-27 14:08:56.717967 (Thread-2): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.719300 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.719397 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_challenge_no_dups"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups__dbt_backup" cascade
+2022-06-27 14:08:56.719534 (Thread-1): 14:08:56  On model.loadsmart_challenge.dim_us_cities: Close
+2022-06-27 14:08:56.720060 (Thread-1): 14:08:56  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ea80efbe0>]}
+2022-06-27 14:08:56.720411 (Thread-1): 14:08:56  1 of 7 OK created view model dbt_gloureiro.dim_us_cities........................ [CREATE VIEW in 0.23s]
+2022-06-27 14:08:56.720527 (Thread-1): 14:08:56  Finished running node model.loadsmart_challenge.dim_us_cities
+2022-06-27 14:08:56.729531 (Thread-2): 14:08:56  SQL status: DROP VIEW in 0.01 seconds
+2022-06-27 14:08:56.730232 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:56.730327 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.730403 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: COMMIT
+2022-06-27 14:08:56.766978 (Thread-2): 14:08:56  SQL status: COMMIT in 0.04 seconds
+2022-06-27 14:08:56.767112 (Thread-2): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_challenge_no_dups"
+2022-06-27 14:08:56.767214 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: BEGIN
+2022-06-27 14:08:56.769400 (Thread-2): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.769837 (Thread-2): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.769967 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: ROLLBACK
+2022-06-27 14:08:56.771800 (Thread-2): 14:08:56  On model.loadsmart_challenge.stg_challenge_no_dups: Close
+2022-06-27 14:08:56.772315 (Thread-2): 14:08:56  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e8037b580>]}
+2022-06-27 14:08:56.772735 (Thread-2): 14:08:56  2 of 7 OK created view model dbt_gloureiro.stg_challenge_no_dups................ [CREATE VIEW in 0.28s]
+2022-06-27 14:08:56.772851 (Thread-2): 14:08:56  Finished running node model.loadsmart_challenge.stg_challenge_no_dups
+2022-06-27 14:08:56.773706 (Thread-4): 14:08:56  Began running node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:56.773920 (Thread-4): 14:08:56  3 of 7 START view model dbt_gloureiro.dim_carrier............................... [RUN]
+2022-06-27 14:08:56.774173 (Thread-4): 14:08:56  Acquiring new redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:56.774260 (Thread-4): 14:08:56  Began compiling node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:56.774347 (Thread-4): 14:08:56  Compiling model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:56.776606 (Thread-4): 14:08:56  Writing injected SQL for node "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:56.776924 (Thread-3): 14:08:56  Began running node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:56.777157 (Thread-3): 14:08:56  4 of 7 START view model dbt_gloureiro.dim_shipper............................... [RUN]
+2022-06-27 14:08:56.777408 (Thread-3): 14:08:56  Acquiring new redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.777507 (Thread-3): 14:08:56  Began compiling node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:56.777587 (Thread-3): 14:08:56  Compiling model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:56.779568 (Thread-3): 14:08:56  Writing injected SQL for node "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.779842 (Thread-1): 14:08:56  Began running node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:56.780064 (Thread-1): 14:08:56  5 of 7 START view model dbt_gloureiro.stg_city_state............................ [RUN]
+2022-06-27 14:08:56.780295 (Thread-1): 14:08:56  Acquiring new redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.780383 (Thread-1): 14:08:56  Began compiling node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:56.780462 (Thread-1): 14:08:56  Compiling model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:56.782305 (Thread-1): 14:08:56  Writing injected SQL for node "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.796551 (Thread-4): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.796697 (Thread-4): 14:08:56  Began executing node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:56.798662 (Thread-4): 14:08:56  Writing runtime SQL for node "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:56.798924 (Thread-3): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.799056 (Thread-3): 14:08:56  Began executing node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:56.800949 (Thread-3): 14:08:56  Writing runtime SQL for node "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.801162 (Thread-1): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.801297 (Thread-1): 14:08:56  Began executing node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:56.803131 (Thread-1): 14:08:56  Writing runtime SQL for node "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.816634 (Thread-4): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:56.816751 (Thread-4): 14:08:56  On model.loadsmart_challenge.dim_carrier: BEGIN
+2022-06-27 14:08:56.816838 (Thread-4): 14:08:56  Opening a new connection, currently in state init
+2022-06-27 14:08:56.816921 (Thread-4): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.817355 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.817496 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: BEGIN
+2022-06-27 14:08:56.817583 (Thread-3): 14:08:56  Opening a new connection, currently in state init
+2022-06-27 14:08:56.817663 (Thread-3): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.818703 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.818822 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: BEGIN
+2022-06-27 14:08:56.818930 (Thread-1): 14:08:56  Opening a new connection, currently in state closed
+2022-06-27 14:08:56.819012 (Thread-1): 14:08:56  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:56.845295 (Thread-3): 14:08:56  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:56.845434 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.845519 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_shipper"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."dim_shipper__dbt_tmp" as (
+    select 
+split_part(shipper_name, 'Shipper ', 2)::integer as shipper_id,
+shipper_name 
+from "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups"
+  ) ;
+
+2022-06-27 14:08:56.848258 (Thread-1): 14:08:56  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:56.848387 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.848468 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_city_state"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_city_state__dbt_tmp" as (
+    select 
+loadsmart_id,
+split_part(lane, ' -> ', 1) as lane_from,
+split_part(lane, ' -> ', 2) as lane_to,
+split_part(lane_from, ',', 1) as city_from, 
+split_part(lane_from, ',', 2) as state_code_from,
+split_part(lane_to, ',', 1) as city_to, 
+split_part(lane_to, ',', 2) as state_code_to
+
+from "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups"
+  ) ;
+
+2022-06-27 14:08:56.853190 (Thread-3): 14:08:56  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:56.855350 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.855450 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_shipper"} */
+alter table "loadsmart"."dbt_gloureiro"."dim_shipper__dbt_tmp" rename to "dim_shipper"
+2022-06-27 14:08:56.855671 (Thread-1): 14:08:56  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:56.857538 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.857660 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_city_state"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_city_state__dbt_tmp" rename to "stg_city_state"
+2022-06-27 14:08:56.858010 (Thread-3): 14:08:56  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:56.859049 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:56.859148 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.859254 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:56.859988 (Thread-1): 14:08:56  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:56.860937 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:56.861034 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.861108 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:56.916672 (Thread-3): 14:08:56  SQL status: COMMIT in 0.06 seconds
+2022-06-27 14:08:56.916978 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.917072 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: BEGIN
+2022-06-27 14:08:56.917347 (Thread-1): 14:08:56  SQL status: COMMIT in 0.06 seconds
+2022-06-27 14:08:56.919272 (Thread-3): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.920802 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.920906 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_shipper"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."dim_shipper__dbt_backup" cascade
+2022-06-27 14:08:56.922915 (Thread-3): 14:08:56  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:56.923680 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:56.923778 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.923854 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: COMMIT
+2022-06-27 14:08:56.947464 (Thread-3): 14:08:56  SQL status: COMMIT in 0.02 seconds
+2022-06-27 14:08:56.947591 (Thread-3): 14:08:56  Using redshift connection "model.loadsmart_challenge.dim_shipper"
+2022-06-27 14:08:56.947670 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: BEGIN
+2022-06-27 14:08:56.949637 (Thread-3): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.950094 (Thread-3): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.950230 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: ROLLBACK
+2022-06-27 14:08:56.950432 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.950542 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: BEGIN
+2022-06-27 14:08:56.953034 (Thread-3): 14:08:56  On model.loadsmart_challenge.dim_shipper: Close
+2022-06-27 14:08:56.953198 (Thread-1): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.954549 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.954655 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_city_state"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_city_state__dbt_backup" cascade
+2022-06-27 14:08:56.955287 (Thread-3): 14:08:56  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e8039a370>]}
+2022-06-27 14:08:56.955633 (Thread-3): 14:08:56  4 of 7 OK created view model dbt_gloureiro.dim_shipper.......................... [CREATE VIEW in 0.18s]
+2022-06-27 14:08:56.955752 (Thread-3): 14:08:56  Finished running node model.loadsmart_challenge.dim_shipper
+2022-06-27 14:08:56.958303 (Thread-1): 14:08:56  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:56.959003 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:56.959101 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.959205 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: COMMIT
+2022-06-27 14:08:56.989574 (Thread-1): 14:08:56  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:56.989692 (Thread-1): 14:08:56  Using redshift connection "model.loadsmart_challenge.stg_city_state"
+2022-06-27 14:08:56.989768 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: BEGIN
+2022-06-27 14:08:56.991832 (Thread-1): 14:08:56  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:56.992252 (Thread-1): 14:08:56  finished collecting timing info
+2022-06-27 14:08:56.992385 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: ROLLBACK
+2022-06-27 14:08:56.994090 (Thread-1): 14:08:56  On model.loadsmart_challenge.stg_city_state: Close
+2022-06-27 14:08:56.994568 (Thread-1): 14:08:56  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e8037a040>]}
+2022-06-27 14:08:56.994907 (Thread-1): 14:08:56  5 of 7 OK created view model dbt_gloureiro.stg_city_state....................... [CREATE VIEW in 0.21s]
+2022-06-27 14:08:56.995017 (Thread-1): 14:08:56  Finished running node model.loadsmart_challenge.stg_city_state
+2022-06-27 14:08:56.995742 (Thread-2): 14:08:56  Began running node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:56.996059 (Thread-2): 14:08:56  6 of 7 START view model dbt_gloureiro.stg_join_lat_long_to...................... [RUN]
+2022-06-27 14:08:56.996308 (Thread-2): 14:08:56  Acquiring new redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:56.996403 (Thread-2): 14:08:56  Began compiling node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:56.996493 (Thread-2): 14:08:56  Compiling model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:56.999265 (Thread-2): 14:08:56  Writing injected SQL for node "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.018164 (Thread-2): 14:08:57  finished collecting timing info
+2022-06-27 14:08:57.018329 (Thread-2): 14:08:57  Began executing node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:57.020450 (Thread-2): 14:08:57  Writing runtime SQL for node "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.035141 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.035283 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: BEGIN
+2022-06-27 14:08:57.035373 (Thread-2): 14:08:57  Opening a new connection, currently in state closed
+2022-06-27 14:08:57.035456 (Thread-2): 14:08:57  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:57.054044 (Thread-2): 14:08:57  SQL status: BEGIN in 0.02 seconds
+2022-06-27 14:08:57.054174 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.054256 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_to"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to__dbt_tmp" as (
+    select 
+loadsmart_id,
+lane_to,
+lane_from,
+latitude as lat_to,
+longitude as long_to
+from "loadsmart"."dbt_gloureiro"."stg_city_state" 
+left join "loadsmart"."dbt_gloureiro"."dim_us_cities" 
+on "loadsmart"."dbt_gloureiro"."dim_us_cities".city_state="loadsmart"."dbt_gloureiro"."stg_city_state".lane_to
+  ) ;
+
+2022-06-27 14:08:57.060270 (Thread-2): 14:08:57  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:57.063636 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.063739 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_to"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to__dbt_tmp" rename to "stg_join_lat_long_to"
+2022-06-27 14:08:57.066064 (Thread-2): 14:08:57  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:57.067083 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:57.067227 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.067309 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:57.094983 (Thread-2): 14:08:57  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:57.095277 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.095370 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: BEGIN
+2022-06-27 14:08:57.097536 (Thread-2): 14:08:57  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:57.140054 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.140178 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_to"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to__dbt_backup" cascade
+2022-06-27 14:08:57.142482 (Thread-2): 14:08:57  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:57.143232 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:57.143334 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.143412 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: COMMIT
+2022-06-27 14:08:57.168137 (Thread-2): 14:08:57  SQL status: COMMIT in 0.02 seconds
+2022-06-27 14:08:57.168274 (Thread-2): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_to"
+2022-06-27 14:08:57.168354 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: BEGIN
+2022-06-27 14:08:57.170463 (Thread-2): 14:08:57  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:57.170905 (Thread-2): 14:08:57  finished collecting timing info
+2022-06-27 14:08:57.171038 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: ROLLBACK
+2022-06-27 14:08:57.172904 (Thread-2): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_to: Close
+2022-06-27 14:08:57.173476 (Thread-2): 14:08:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5e80358550>]}
+2022-06-27 14:08:57.173829 (Thread-2): 14:08:57  6 of 7 OK created view model dbt_gloureiro.stg_join_lat_long_to................. [CREATE VIEW in 0.18s]
+2022-06-27 14:08:57.173943 (Thread-2): 14:08:57  Finished running node model.loadsmart_challenge.stg_join_lat_long_to
+2022-06-27 14:08:57.174583 (Thread-1): 14:08:57  Began running node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:57.174843 (Thread-1): 14:08:57  7 of 7 START view model dbt_gloureiro.stg_join_lat_long_from.................... [RUN]
+2022-06-27 14:08:57.175102 (Thread-1): 14:08:57  Acquiring new redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.175227 (Thread-1): 14:08:57  Began compiling node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:57.175334 (Thread-1): 14:08:57  Compiling model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:57.178683 (Thread-1): 14:08:57  Writing injected SQL for node "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.194704 (Thread-1): 14:08:57  finished collecting timing info
+2022-06-27 14:08:57.194854 (Thread-1): 14:08:57  Began executing node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:57.196985 (Thread-1): 14:08:57  Writing runtime SQL for node "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.211964 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.212147 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: BEGIN
+2022-06-27 14:08:57.212290 (Thread-1): 14:08:57  Opening a new connection, currently in state closed
+2022-06-27 14:08:57.212425 (Thread-1): 14:08:57  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:57.231451 (Thread-1): 14:08:57  SQL status: BEGIN in 0.02 seconds
+2022-06-27 14:08:57.231581 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.231663 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_from"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."stg_join_lat_long_from__dbt_tmp" as (
+    select 
+loadsmart_id,
+
+lane_from,
+latitude as lat_from,
+longitude as long_from,
+
+lane_to,
+lat_to,
+long_to
+
+from "loadsmart"."dbt_gloureiro"."stg_join_lat_long_to" 
+left join "loadsmart"."dbt_gloureiro"."dim_us_cities" 
+on "loadsmart"."dbt_gloureiro"."dim_us_cities".city_state="loadsmart"."dbt_gloureiro"."stg_join_lat_long_to".lane_from
+  ) ;
+
+2022-06-27 14:08:57.237708 (Thread-1): 14:08:57  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:57.239991 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.240098 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_from"} */
+alter table "loadsmart"."dbt_gloureiro"."stg_join_lat_long_from__dbt_tmp" rename to "stg_join_lat_long_from"
+2022-06-27 14:08:57.242493 (Thread-1): 14:08:57  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:57.243602 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:57.243704 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.243780 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:57.271961 (Thread-1): 14:08:57  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:57.272233 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.272334 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: BEGIN
+2022-06-27 14:08:57.274447 (Thread-1): 14:08:57  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:57.275895 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.275993 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.stg_join_lat_long_from"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."stg_join_lat_long_from__dbt_backup" cascade
+2022-06-27 14:08:57.277897 (Thread-1): 14:08:57  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:57.278632 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:57.278735 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.278819 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: COMMIT
+2022-06-27 14:08:57.298072 (Thread-4): 14:08:57  SQL status: BEGIN in 0.48 seconds
+2022-06-27 14:08:57.298204 (Thread-4): 14:08:57  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:57.298287 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_carrier"} */
+
+
+  create view "loadsmart"."dbt_gloureiro"."dim_carrier__dbt_tmp" as (
+    select 
+split_part(carrier_name, 'Carrier ', 2)::integer as carrier_id,
+carrier_name 
+from "loadsmart"."dbt_gloureiro"."stg_challenge_no_dups"
+  ) ;
+
+2022-06-27 14:08:57.305592 (Thread-1): 14:08:57  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:57.305713 (Thread-1): 14:08:57  Using redshift connection "model.loadsmart_challenge.stg_join_lat_long_from"
+2022-06-27 14:08:57.305788 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: BEGIN
+2022-06-27 14:08:57.307956 (Thread-4): 14:08:57  SQL status: CREATE VIEW in 0.01 seconds
+2022-06-27 14:08:57.309968 (Thread-4): 14:08:57  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:57.310070 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_carrier"} */
+alter table "loadsmart"."dbt_gloureiro"."dim_carrier__dbt_tmp" rename to "dim_carrier"
+2022-06-27 14:08:57.310314 (Thread-1): 14:08:57  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:57.310727 (Thread-1): 14:08:57  finished collecting timing info
+2022-06-27 14:08:57.310860 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: ROLLBACK
+2022-06-27 14:08:57.312545 (Thread-4): 14:08:57  SQL status: ALTER TABLE in 0.0 seconds
+2022-06-27 14:08:57.313594 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:57.313693 (Thread-4): 14:08:57  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:57.313769 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:57.313992 (Thread-1): 14:08:57  On model.loadsmart_challenge.stg_join_lat_long_from: Close
+2022-06-27 14:08:57.314663 (Thread-1): 14:08:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ea805cc40>]}
+2022-06-27 14:08:57.315002 (Thread-1): 14:08:57  7 of 7 OK created view model dbt_gloureiro.stg_join_lat_long_from............... [CREATE VIEW in 0.14s]
+2022-06-27 14:08:57.315115 (Thread-1): 14:08:57  Finished running node model.loadsmart_challenge.stg_join_lat_long_from
+2022-06-27 14:08:57.347592 (Thread-4): 14:08:57  SQL status: COMMIT in 0.03 seconds
+2022-06-27 14:08:57.347864 (Thread-4): 14:08:57  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:57.347957 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: BEGIN
+2022-06-27 14:08:57.350081 (Thread-4): 14:08:57  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:57.351566 (Thread-4): 14:08:57  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:57.351674 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: /* {"app": "dbt", "dbt_version": "1.0.8", "profile_name": "user", "target_name": "default", "node_id": "model.loadsmart_challenge.dim_carrier"} */
+drop view if exists "loadsmart"."dbt_gloureiro"."dim_carrier__dbt_backup" cascade
+2022-06-27 14:08:57.353646 (Thread-4): 14:08:57  SQL status: DROP VIEW in 0.0 seconds
+2022-06-27 14:08:57.354618 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:57.354719 (Thread-4): 14:08:57  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:57.354798 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: COMMIT
+2022-06-27 14:08:57.367083 (Thread-47): handling poll request
+2022-06-27 14:08:57.367456 (Thread-47): 14:08:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a44a0fa0>]}
+2022-06-27 14:08:57.371073 (Thread-47): sending response (<Response 138432 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:57.376470 (Thread-4): 14:08:57  SQL status: COMMIT in 0.02 seconds
+2022-06-27 14:08:57.376672 (Thread-4): 14:08:57  Using redshift connection "model.loadsmart_challenge.dim_carrier"
+2022-06-27 14:08:57.376813 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: BEGIN
+2022-06-27 14:08:57.378953 (Thread-4): 14:08:57  SQL status: BEGIN in 0.0 seconds
+2022-06-27 14:08:57.379439 (Thread-4): 14:08:57  finished collecting timing info
+2022-06-27 14:08:57.379641 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: ROLLBACK
+2022-06-27 14:08:57.381543 (Thread-4): 14:08:57  On model.loadsmart_challenge.dim_carrier: Close
+2022-06-27 14:08:57.382186 (Thread-4): 14:08:57  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '38051d54-e61b-4b2d-a705-88163d90b62d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5ea802e700>]}
+2022-06-27 14:08:57.382604 (Thread-4): 14:08:57  3 of 7 OK created view model dbt_gloureiro.dim_carrier.......................... [CREATE VIEW in 0.61s]
+2022-06-27 14:08:57.382762 (Thread-4): 14:08:57  Finished running node model.loadsmart_challenge.dim_carrier
+2022-06-27 14:08:57.384297 (MainThread): 14:08:57  Acquiring new redshift connection "master"
+2022-06-27 14:08:57.384444 (MainThread): 14:08:57  Using redshift connection "master"
+2022-06-27 14:08:57.384524 (MainThread): 14:08:57  On master: BEGIN
+2022-06-27 14:08:57.384605 (MainThread): 14:08:57  Opening a new connection, currently in state closed
+2022-06-27 14:08:57.384683 (MainThread): 14:08:57  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:08:57.410334 (MainThread): 14:08:57  SQL status: BEGIN in 0.03 seconds
+2022-06-27 14:08:57.410472 (MainThread): 14:08:57  On master: COMMIT
+2022-06-27 14:08:57.410554 (MainThread): 14:08:57  Using redshift connection "master"
+2022-06-27 14:08:57.410629 (MainThread): 14:08:57  On master: COMMIT
+2022-06-27 14:08:57.412355 (MainThread): 14:08:57  SQL status: COMMIT in 0.0 seconds
+2022-06-27 14:08:57.412475 (MainThread): 14:08:57  On master: Close
+2022-06-27 14:08:57.413012 (MainThread): 14:08:57  
+2022-06-27 14:08:57.413128 (MainThread): 14:08:57  Finished running 7 view models in 1.08s.
+2022-06-27 14:08:57.413213 (MainThread): 14:08:57  Connection 'master' was properly closed.
+2022-06-27 14:08:57.413281 (MainThread): 14:08:57  Connection 'model.loadsmart_challenge.stg_join_lat_long_from' was properly closed.
+2022-06-27 14:08:57.413345 (MainThread): 14:08:57  Connection 'model.loadsmart_challenge.stg_join_lat_long_to' was properly closed.
+2022-06-27 14:08:57.413406 (MainThread): 14:08:57  Connection 'model.loadsmart_challenge.dim_carrier' was properly closed.
+2022-06-27 14:08:57.413481 (MainThread): 14:08:57  Connection 'model.loadsmart_challenge.dim_shipper' was properly closed.
+2022-06-27 14:08:57.477701 (MainThread): 14:08:57  
+2022-06-27 14:08:57.477875 (MainThread): 14:08:57  Completed successfully
+2022-06-27 14:08:57.477979 (MainThread): 14:08:57  
+2022-06-27 14:08:57.478066 (MainThread): 14:08:57  Done. PASS=7 WARN=0 ERROR=0 SKIP=0 TOTAL=7
+2022-06-27 14:08:58.737039 (Thread-48): handling poll request
+2022-06-27 14:08:58.737461 (Thread-48): 14:08:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a44e1730>]}
+2022-06-27 14:08:58.738943 (Thread-48): sending response (<Response 29651 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:59.664503 (Thread-49): handling status request
+2022-06-27 14:08:59.664926 (Thread-49): 14:08:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a448fa60>]}
+2022-06-27 14:08:59.665976 (Thread-49): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:08:59.872585 (Thread-50): handling status request
+2022-06-27 14:08:59.873009 (Thread-50): 14:08:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a448f190>]}
+2022-06-27 14:08:59.873881 (Thread-50): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:09:33.359760 (Thread-51): handling status request
+2022-06-27 14:09:33.360192 (Thread-51): 14:09:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a448fc40>]}
+2022-06-27 14:09:33.361049 (Thread-51): sending response (<Response 17456 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:09:33.406521 (Thread-52): handling list request
+2022-06-27 14:09:33.406850 (Thread-52): 14:09:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a44ae820>]}
+2022-06-27 14:09:33.438034 (Thread-52): 14:09:33  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a44ae400>]}
+2022-06-27 14:09:33.438386 (Thread-52): 14:09:33  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:09:33.441209 (Thread-52): sending response (<Response 3586 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:09:33.867840 (Thread-53): handling status request
+2022-06-27 14:09:33.868232 (Thread-53): 14:09:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4050790>]}
+2022-06-27 14:09:33.869060 (Thread-53): sending response (<Response 17456 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:09:33.926598 (Thread-54): handling list request
+2022-06-27 14:09:33.926913 (Thread-54): 14:09:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a44a0fa0>]}
+2022-06-27 14:09:33.959124 (Thread-54): 14:09:33  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c133550>]}
+2022-06-27 14:09:33.959443 (Thread-54): 14:09:33  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:09:33.962088 (Thread-54): sending response (<Response 3586 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:09:35.283146 (Thread-55): handling status request
+2022-06-27 14:09:35.283595 (Thread-55): 14:09:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02cdf760a0>]}
+2022-06-27 14:09:35.284438 (Thread-55): sending response (<Response 17456 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:09:35.291332 (Thread-56): handling list request
+2022-06-27 14:09:35.291591 (Thread-56): 14:09:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a44ae850>]}
+2022-06-27 14:09:35.320532 (Thread-56): 14:09:35  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c1420a0>]}
+2022-06-27 14:09:35.320806 (Thread-56): 14:09:35  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-06-27 14:09:35.322564 (Thread-56): sending response (<Response 1757 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:10:06.652077 (Thread-57): 14:10:06  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-06-27 14:10:06.652425 (Thread-57): 14:10:06  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a4522370>]}
+2022-06-27 14:10:06.730249 (Thread-57): 14:10:06  Parsing macros/relations.sql
+2022-06-27 14:10:06.731039 (Thread-57): 14:10:06  Parsing macros/adapters.sql
+2022-06-27 14:10:06.758918 (Thread-57): 14:10:06  Parsing macros/catalog.sql
+2022-06-27 14:10:06.771141 (Thread-57): 14:10:06  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:10:06.771822 (Thread-57): 14:10:06  Parsing macros/relations.sql
+2022-06-27 14:10:06.773109 (Thread-57): 14:10:06  Parsing macros/adapters.sql
+2022-06-27 14:10:06.794610 (Thread-57): 14:10:06  Parsing macros/catalog.sql
+2022-06-27 14:10:06.796778 (Thread-57): 14:10:06  Parsing macros/materializations/snapshot_merge.sql
+2022-06-27 14:10:06.798406 (Thread-57): 14:10:06  Parsing macros/adapters/metadata.sql
+2022-06-27 14:10:06.805409 (Thread-57): 14:10:06  Parsing macros/adapters/columns.sql
+2022-06-27 14:10:06.815427 (Thread-57): 14:10:06  Parsing macros/adapters/freshness.sql
+2022-06-27 14:10:06.818245 (Thread-57): 14:10:06  Parsing macros/adapters/persist_docs.sql
+2022-06-27 14:10:06.822524 (Thread-57): 14:10:06  Parsing macros/adapters/relation.sql
+2022-06-27 14:10:06.831836 (Thread-57): 14:10:06  Parsing macros/adapters/schema.sql
+2022-06-27 14:10:06.834016 (Thread-57): 14:10:06  Parsing macros/adapters/indexes.sql
+2022-06-27 14:10:06.836676 (Thread-57): 14:10:06  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-06-27 14:10:06.839082 (Thread-57): 14:10:06  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-06-27 14:10:06.840549 (Thread-57): 14:10:06  Parsing macros/get_custom_name/get_custom_database.sql
+2022-06-27 14:10:06.842135 (Thread-57): 14:10:06  Parsing macros/etc/datetime.sql
+2022-06-27 14:10:06.850230 (Thread-57): 14:10:06  Parsing macros/etc/statement.sql
+2022-06-27 14:10:06.854537 (Thread-57): 14:10:06  Parsing macros/generic_test_sql/unique.sql
+2022-06-27 14:10:06.855267 (Thread-57): 14:10:06  Parsing macros/generic_test_sql/not_null.sql
+2022-06-27 14:10:06.855826 (Thread-57): 14:10:06  Parsing macros/generic_test_sql/accepted_values.sql
+2022-06-27 14:10:06.857158 (Thread-57): 14:10:06  Parsing macros/generic_test_sql/relationships.sql
+2022-06-27 14:10:06.858039 (Thread-57): 14:10:06  Parsing macros/materializations/configs.sql
+2022-06-27 14:10:06.860323 (Thread-57): 14:10:06  Parsing macros/materializations/hooks.sql
+2022-06-27 14:10:06.864077 (Thread-57): 14:10:06  Parsing macros/materializations/models/table/table.sql
+2022-06-27 14:10:06.871353 (Thread-57): 14:10:06  Parsing macros/materializations/models/table/create_table_as.sql
+2022-06-27 14:10:06.874130 (Thread-57): 14:10:06  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-06-27 14:10:06.876729 (Thread-57): 14:10:06  Parsing macros/materializations/models/view/helpers.sql
+2022-06-27 14:10:06.878020 (Thread-57): 14:10:06  Parsing macros/materializations/models/view/create_view_as.sql
+2022-06-27 14:10:06.880280 (Thread-57): 14:10:06  Parsing macros/materializations/models/view/view.sql
+2022-06-27 14:10:06.887238 (Thread-57): 14:10:06  Parsing macros/materializations/models/incremental/incremental.sql
+2022-06-27 14:10:06.897138 (Thread-57): 14:10:06  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-06-27 14:10:06.912178 (Thread-57): 14:10:06  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-06-27 14:10:06.913655 (Thread-57): 14:10:06  Parsing macros/materializations/models/incremental/merge.sql
+2022-06-27 14:10:06.924598 (Thread-57): 14:10:06  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-06-27 14:10:06.928897 (Thread-57): 14:10:06  Parsing macros/materializations/seeds/helpers.sql
+2022-06-27 14:10:06.944635 (Thread-57): 14:10:06  Parsing macros/materializations/seeds/seed.sql
+2022-06-27 14:10:06.950558 (Thread-57): 14:10:06  Parsing macros/materializations/tests/helpers.sql
+2022-06-27 14:10:06.952304 (Thread-57): 14:10:06  Parsing macros/materializations/tests/test.sql
+2022-06-27 14:10:06.956662 (Thread-57): 14:10:06  Parsing macros/materializations/tests/where_subquery.sql
+2022-06-27 14:10:06.958571 (Thread-57): 14:10:06  Parsing macros/materializations/snapshots/helpers.sql
+2022-06-27 14:10:06.970193 (Thread-57): 14:10:06  Parsing macros/materializations/snapshots/strategies.sql
+2022-06-27 14:10:06.987267 (Thread-57): 14:10:06  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-06-27 14:10:06.989005 (Thread-57): 14:10:06  Parsing macros/materializations/snapshots/snapshot.sql
+2022-06-27 14:10:07.000642 (Thread-57): 14:10:07  Parsing tests/generic/builtin.sql
+2022-06-27 14:10:07.196821 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/internal/stg_city_state.sql
+2022-06-27 14:10:07.199755 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 14:10:07.202044 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/internal/dim_shipper.sql
+2022-06-27 14:10:07.204262 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/internal/dim_calendar.sql
+2022-06-27 14:10:07.206576 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/internal/stg_challenge_no_dups.sql
+2022-06-27 14:10:07.209082 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 14:10:07.211273 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/internal/dim_carrier.sql
+2022-06-27 14:10:07.213400 (Thread-57): 14:10:07  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 14:10:07.285565 (Thread-57): 14:10:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c0b2f70>]}
+2022-06-27 14:10:07.463982 (Thread-58): handling status request
+2022-06-27 14:10:07.464386 (Thread-58): 14:10:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c0b03a0>]}
+2022-06-27 14:10:07.486561 (Thread-58): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:10:07.539353 (Thread-59): handling status request
+2022-06-27 14:10:07.539649 (Thread-59): 14:10:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c0b0160>]}
+2022-06-27 14:10:07.540434 (Thread-59): sending response (<Response 17478 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:10:45.749432 (Thread-60): 14:10:45  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 14:10:45.749993 (Thread-60): 14:10:45  Partial parsing: deleted source source.loadsmart_challenge.external.us_cities
+2022-06-27 14:10:45.750160 (Thread-60): 14:10:45  Partial parsing: update schema file: loadsmart_challenge://models/staging/external/src_external.yml
+2022-06-27 14:10:45.754294 (Thread-60): 14:10:45  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 14:10:45.758334 (Thread-60): 14:10:45  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 14:10:45.760554 (Thread-60): 14:10:45  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 14:10:45.806824 (Thread-60): 14:10:45  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0251191e50>]}
+2022-06-27 14:10:46.440132 (Thread-61): handling status request
+2022-06-27 14:10:46.440525 (Thread-61): 14:10:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c0b2d90>]}
+2022-06-27 14:10:46.441031 (Thread-61): sending response (<Response 2538 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:10:46.472169 (Thread-62): handling list request
+2022-06-27 14:10:46.472497 (Thread-62): 14:10:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c123220>]}
+2022-06-27 14:10:46.506549 (Thread-62): 14:10:46  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02511e4910>]}
+2022-06-27 14:10:46.506909 (Thread-62): 14:10:46  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-06-27 14:10:46.508146 (Thread-62): 14:10:46  The selection criterion '+models/staging/internal/dim_calendar.sql+' does not match any nodes
+2022-06-27 14:10:46.508408 (Thread-62): 14:10:46  No nodes selected!
+2022-06-27 14:10:46.510596 (Thread-62): sending response (<Response 1953 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:10:46.713583 (Thread-63): handling status request
+2022-06-27 14:10:46.714013 (Thread-63): 14:10:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02511e4c10>]}
+2022-06-27 14:10:46.714550 (Thread-63): sending response (<Response 2560 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:10:46.756847 (Thread-64): handling status request
+2022-06-27 14:10:46.757280 (Thread-64): 14:10:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02511e4700>]}
+2022-06-27 14:10:46.757824 (Thread-64): sending response (<Response 2560 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:11.908397 (Thread-65): 14:11:11  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-06-27 14:11:11.908841 (Thread-65): 14:11:11  Partial parsing: updated file: loadsmart_challenge://models/staging/internal/dim_calendar.sql
+2022-06-27 14:11:11.912761 (Thread-65): 14:11:11  1699: static parser successfully parsed staging/internal/dim_calendar.sql
+2022-06-27 14:11:11.954331 (Thread-65): 14:11:11  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0250932cd0>]}
+2022-06-27 14:11:12.534083 (Thread-66): handling status request
+2022-06-27 14:11:12.534499 (Thread-66): 14:11:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02511abe80>]}
+2022-06-27 14:11:12.535010 (Thread-66): sending response (<Response 1567 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:12.589588 (Thread-67): handling list request
+2022-06-27 14:11:12.589938 (Thread-67): 14:11:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02511abdf0>]}
+2022-06-27 14:11:12.617979 (Thread-67): 14:11:12  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c0f2550>]}
+2022-06-27 14:11:12.618255 (Thread-67): 14:11:12  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-06-27 14:11:12.620498 (Thread-67): sending response (<Response 2035 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:12.689499 (Thread-68): handling status request
+2022-06-27 14:11:12.689974 (Thread-68): 14:11:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c0f2460>]}
+2022-06-27 14:11:12.690472 (Thread-68): sending response (<Response 1589 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:12.814899 (Thread-69): handling status request
+2022-06-27 14:11:12.815316 (Thread-69): 14:11:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0251189b80>]}
+2022-06-27 14:11:12.815779 (Thread-69): sending response (<Response 1589 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:17.889397 (Thread-70): handling status request
+2022-06-27 14:11:17.889827 (Thread-70): 14:11:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0251189b50>]}
+2022-06-27 14:11:17.890351 (Thread-70): sending response (<Response 1589 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:18.324234 (Thread-71): handling run_sql request
+2022-06-27 14:11:18.324683 (Thread-71): 14:11:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f028c07bb50>]}
+2022-06-27 14:11:20.486537 (Thread-71): sending response (<Response 138 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:20.510892 (MainThread): 14:11:20  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3f1524a4-540a-4d2d-9ca5-2684d5cf7c03', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f583353ef70>]}
+2022-06-27 14:11:20.511417 (MainThread): 14:11:20  Found 8 models, 0 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 3 sources, 0 exposures, 0 metrics
+2022-06-27 14:11:20.511976 (Thread-1): 14:11:20  Acquiring new redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 14:11:20.512106 (Thread-1): 14:11:20  Began compiling node rpc.loadsmart_challenge.request
+2022-06-27 14:11:20.512195 (Thread-1): 14:11:20  Compiling rpc.loadsmart_challenge.request
+2022-06-27 14:11:20.514243 (Thread-1): 14:11:20  finished collecting timing info
+2022-06-27 14:11:20.514367 (Thread-1): 14:11:20  Began executing node rpc.loadsmart_challenge.request
+2022-06-27 14:11:20.514462 (Thread-1): 14:11:20  Using redshift connection "rpc.loadsmart_challenge.request"
+2022-06-27 14:11:20.514536 (Thread-1): 14:11:20  On rpc.loadsmart_challenge.request: select * from "loadsmart"."external"."calendar"
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-27 14:11:20.514613 (Thread-1): 14:11:20  Opening a new connection, currently in state init
+2022-06-27 14:11:20.514693 (Thread-1): 14:11:20  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-27 14:11:21.000070 (Thread-72): handling poll request
+2022-06-27 14:11:21.000552 (Thread-72): 14:11:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0250932dc0>]}
+2022-06-27 14:11:21.001515 (Thread-72): sending response (<Response 4128 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:22.400303 (Thread-73): handling poll request
+2022-06-27 14:11:22.400743 (Thread-73): 14:11:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0250930220>]}
+2022-06-27 14:11:22.401289 (Thread-73): sending response (<Response 415 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:23.803938 (Thread-74): handling poll request
+2022-06-27 14:11:23.804426 (Thread-74): 14:11:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02509301f0>]}
+2022-06-27 14:11:23.805012 (Thread-74): sending response (<Response 415 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:11:23.856036 (Thread-1): 14:11:23  SQL status: SELECT in 3.34 seconds
+2022-06-27 14:11:23.876768 (Thread-1): 14:11:23  finished collecting timing info
+2022-06-27 14:11:23.877008 (Thread-1): 14:11:23  On rpc.loadsmart_challenge.request: Close
+2022-06-27 14:11:25.170184 (Thread-75): handling poll request
+2022-06-27 14:11:25.170720 (Thread-75): 14:11:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02a45d46a0>]}
+2022-06-27 14:11:25.175255 (Thread-75): sending response (<Response 28622 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:12:03.071493 (Thread-76): 14:12:03  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 14:12:03.071719 (Thread-76): 14:12:03  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 14:12:03.077360 (Thread-76): 14:12:03  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f025006efd0>]}
+2022-06-27 14:12:03.811096 (Thread-77): handling status request
+2022-06-27 14:12:03.811546 (Thread-77): 14:12:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f025009b910>]}
+2022-06-27 14:12:03.812027 (Thread-77): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:12:03.878061 (Thread-78): handling status request
+2022-06-27 14:12:03.878499 (Thread-78): 14:12:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02500a40d0>]}
+2022-06-27 14:12:03.878975 (Thread-78): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
+2022-06-27 14:17:08.951423 (Thread-79): handling status request
+2022-06-27 14:17:08.953477 (Thread-79): 14:17:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '6fd1d663-f4a8-4086-8460-33b458e7d104', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f02500a46d0>]}
+2022-06-27 14:17:08.954017 (Thread-79): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.186
