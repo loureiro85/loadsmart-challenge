@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: internal
+    database: loadsmart
+    schema: internal
+    tables:
+      - name: data_challenge

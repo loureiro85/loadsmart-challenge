@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: external
+    database: loadsmart
+    schema: external
+    tables:
+      - name: us_cities
