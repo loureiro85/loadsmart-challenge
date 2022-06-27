@@ -72,3 +72,293 @@
 2022-06-26 17:20:22.702130 (Thread-17): handling status request
 2022-06-26 17:20:22.703945 (Thread-17): 17:20:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcf00dfe20>]}
 2022-06-26 17:20:22.704747 (Thread-17): sending response (<Response 15479 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:20:24.701004 (Thread-18): 17:20:24  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-26 17:20:24.701188 (Thread-18): 17:20:24  Partial parsing enabled, no changes found, skipping parsing
+2022-06-26 17:20:24.705866 (Thread-18): 17:20:24  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5bbd90>]}
+2022-06-26 17:20:25.551153 (Thread-19): handling status request
+2022-06-26 17:20:25.551523 (Thread-19): 17:20:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcf00961f0>]}
+2022-06-26 17:20:25.551996 (Thread-19): sending response (<Response 1241 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:20:25.626594 (Thread-20): handling status request
+2022-06-26 17:20:25.626935 (Thread-20): 17:20:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcf0096070>]}
+2022-06-26 17:20:25.627403 (Thread-20): sending response (<Response 1241 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:19.558822 (Thread-21): handling status request
+2022-06-26 17:21:19.559914 (Thread-21): 17:21:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5b1f70>]}
+2022-06-26 17:21:19.560480 (Thread-21): sending response (<Response 1241 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:19.900603 (Thread-22): handling run_sql request
+2022-06-26 17:21:19.900963 (Thread-22): 17:21:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5b1d00>]}
+2022-06-26 17:21:22.048961 (Thread-22): sending response (<Response 138 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:22.078039 (MainThread): 17:21:22  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'bb72429b-6ae6-4be5-81be-98837562758a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd6e4ef2760>]}
+2022-06-26 17:21:22.078558 (MainThread): 17:21:22  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-06-26 17:21:22.079129 (Thread-1): 17:21:22  Acquiring new redshift connection "rpc.my_new_project.request"
+2022-06-26 17:21:22.079279 (Thread-1): 17:21:22  Began compiling node rpc.my_new_project.request
+2022-06-26 17:21:22.079376 (Thread-1): 17:21:22  Compiling rpc.my_new_project.request
+2022-06-26 17:21:22.080489 (Thread-1): 17:21:22  finished collecting timing info
+2022-06-26 17:21:22.080623 (Thread-1): 17:21:22  Began executing node rpc.my_new_project.request
+2022-06-26 17:21:22.080733 (Thread-1): 17:21:22  Using redshift connection "rpc.my_new_project.request"
+2022-06-26 17:21:22.080809 (Thread-1): 17:21:22  On rpc.my_new_project.request: create schema if not exists data_challenge
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-26 17:21:22.080890 (Thread-1): 17:21:22  Opening a new connection, currently in state init
+2022-06-26 17:21:22.080973 (Thread-1): 17:21:22  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-26 17:21:22.101064 (Thread-1): 17:21:22  Postgres adapter: Postgres error: syntax error at or near "limit"
+LINE 2: limit 500
+        ^
+
+2022-06-26 17:21:22.101223 (Thread-1): 17:21:22  finished collecting timing info
+2022-06-26 17:21:22.101340 (Thread-1): 17:21:22  On rpc.my_new_project.request: Close
+2022-06-26 17:21:22.101604 (Thread-1): Got an exception: Database Error
+  syntax error at or near "limit"
+  LINE 2: limit 500
+          ^
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 59, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+psycopg2.errors.SyntaxError: syntax error at or near "limit"
+LINE 2: limit 500
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 70, in exception_handler
+    raise dbt.exceptions.DatabaseException(str(e).strip()) from e
+dbt.exceptions.DatabaseException: Database Error
+  syntax error at or near "limit"
+  LINE 2: limit 500
+          ^
+2022-06-26 17:21:22.102589 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "limit"\n  LINE 2: limit 500\n          ^', 'raw_sql': 'create schema if not exists data_challenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_sql': 'create schema if not exists data_challenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "limit"\n  LINE 2: limit 500\n          ^', 'raw_sql': 'create schema if not exists data_challenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_sql': 'create schema if not exists data_challenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-06-26 17:21:22.455825 (Thread-23): handling poll request
+2022-06-26 17:21:22.456271 (Thread-23): 17:21:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd0802aa30>]}
+2022-06-26 17:21:22.457085 (Thread-23): sending response (<Response 9162 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:34.331773 (Thread-24): handling status request
+2022-06-26 17:21:34.333738 (Thread-24): 17:21:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5bbfd0>]}
+2022-06-26 17:21:34.334259 (Thread-24): sending response (<Response 1241 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:34.695284 (Thread-25): handling run_sql request
+2022-06-26 17:21:34.695630 (Thread-25): 17:21:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5bc1c0>]}
+2022-06-26 17:21:36.833909 (Thread-25): sending response (<Response 138 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:36.858171 (MainThread): 17:21:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5a78eb31-6859-4623-a99d-fe5d030ffee1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0eda4d77c0>]}
+2022-06-26 17:21:36.858689 (MainThread): 17:21:36  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-06-26 17:21:36.859269 (Thread-1): 17:21:36  Acquiring new redshift connection "rpc.my_new_project.request"
+2022-06-26 17:21:36.859401 (Thread-1): 17:21:36  Began compiling node rpc.my_new_project.request
+2022-06-26 17:21:36.859493 (Thread-1): 17:21:36  Compiling rpc.my_new_project.request
+2022-06-26 17:21:36.860603 (Thread-1): 17:21:36  finished collecting timing info
+2022-06-26 17:21:36.860731 (Thread-1): 17:21:36  Began executing node rpc.my_new_project.request
+2022-06-26 17:21:36.860830 (Thread-1): 17:21:36  Using redshift connection "rpc.my_new_project.request"
+2022-06-26 17:21:36.860908 (Thread-1): 17:21:36  On rpc.my_new_project.request: create schema if not exists datachallenge
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-26 17:21:36.860991 (Thread-1): 17:21:36  Opening a new connection, currently in state init
+2022-06-26 17:21:36.861074 (Thread-1): 17:21:36  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-26 17:21:36.880669 (Thread-1): 17:21:36  Postgres adapter: Postgres error: syntax error at or near "limit"
+LINE 2: limit 500
+        ^
+
+2022-06-26 17:21:36.880821 (Thread-1): 17:21:36  finished collecting timing info
+2022-06-26 17:21:36.880937 (Thread-1): 17:21:36  On rpc.my_new_project.request: Close
+2022-06-26 17:21:36.881115 (Thread-1): Got an exception: Database Error
+  syntax error at or near "limit"
+  LINE 2: limit 500
+          ^
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 59, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+psycopg2.errors.SyntaxError: syntax error at or near "limit"
+LINE 2: limit 500
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 70, in exception_handler
+    raise dbt.exceptions.DatabaseException(str(e).strip()) from e
+dbt.exceptions.DatabaseException: Database Error
+  syntax error at or near "limit"
+  LINE 2: limit 500
+          ^
+2022-06-26 17:21:36.882299 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "limit"\n  LINE 2: limit 500\n          ^', 'raw_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "limit"\n  LINE 2: limit 500\n          ^', 'raw_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-06-26 17:21:37.227432 (Thread-26): handling poll request
+2022-06-26 17:21:37.227880 (Thread-26): 17:21:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcf00c6fa0>]}
+2022-06-26 17:21:37.228668 (Thread-26): sending response (<Response 9155 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:41.998187 (Thread-27): handling status request
+2022-06-26 17:21:41.998542 (Thread-27): 17:21:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5bbd00>]}
+2022-06-26 17:21:41.999038 (Thread-27): sending response (<Response 1241 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:42.372747 (Thread-28): handling run_sql request
+2022-06-26 17:21:42.373094 (Thread-28): 17:21:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5c7130>]}
+2022-06-26 17:21:44.497063 (Thread-28): sending response (<Response 138 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 17:21:44.521098 (MainThread): 17:21:44  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a02fa7fe-e2ae-400d-bd1d-30500b441c55', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9ce80e8880>]}
+2022-06-26 17:21:44.521640 (MainThread): 17:21:44  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-06-26 17:21:44.522227 (Thread-1): 17:21:44  Acquiring new redshift connection "rpc.my_new_project.request"
+2022-06-26 17:21:44.522366 (Thread-1): 17:21:44  Began compiling node rpc.my_new_project.request
+2022-06-26 17:21:44.522471 (Thread-1): 17:21:44  Compiling rpc.my_new_project.request
+2022-06-26 17:21:44.523590 (Thread-1): 17:21:44  finished collecting timing info
+2022-06-26 17:21:44.523720 (Thread-1): 17:21:44  Began executing node rpc.my_new_project.request
+2022-06-26 17:21:44.523814 (Thread-1): 17:21:44  Using redshift connection "rpc.my_new_project.request"
+2022-06-26 17:21:44.523891 (Thread-1): 17:21:44  On rpc.my_new_project.request: create schema if not exists datachallenge
+limit 500
+/* limit added automatically by dbt cloud */
+2022-06-26 17:21:44.523965 (Thread-1): 17:21:44  Opening a new connection, currently in state init
+2022-06-26 17:21:44.524049 (Thread-1): 17:21:44  Redshift adapter: Connecting to Redshift using 'database' credentials
+2022-06-26 17:21:44.543638 (Thread-1): 17:21:44  Postgres adapter: Postgres error: syntax error at or near "limit"
+LINE 2: limit 500
+        ^
+
+2022-06-26 17:21:44.543791 (Thread-1): 17:21:44  finished collecting timing info
+2022-06-26 17:21:44.543915 (Thread-1): 17:21:44  On rpc.my_new_project.request: Close
+2022-06-26 17:21:44.544198 (Thread-1): Got an exception: Database Error
+  syntax error at or near "limit"
+  LINE 2: limit 500
+          ^
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 59, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 74, in add_query
+    cursor.execute(sql, bindings)
+psycopg2.errors.SyntaxError: syntax error at or near "limit"
+LINE 2: limit 500
+        ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 361, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 314, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 403, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 225, in execute
+    return self.connections.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 127, in execute
+    _, cursor = self.add_query(sql, auto_begin)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/sql/connections.py", line 83, in add_query
+    return connection, cursor
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/postgres/connections.py", line 70, in exception_handler
+    raise dbt.exceptions.DatabaseException(str(e).strip()) from e
+dbt.exceptions.DatabaseException: Database Error
+  syntax error at or near "limit"
+  LINE 2: limit 500
+          ^
+2022-06-26 17:21:44.545152 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "limit"\n  LINE 2: limit 500\n          ^', 'raw_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 377, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  syntax error at or near "limit"\n  LINE 2: limit 500\n          ^', 'raw_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'compiled_sql': 'create schema if not exists datachallenge\nlimit 500\n/* limit added automatically by dbt cloud */', 'tags': None}, None)
+2022-06-26 17:21:44.847849 (Thread-29): handling poll request
+2022-06-26 17:21:44.848314 (Thread-29): 17:21:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'a34b12d6-6955-4b57-8781-0e57a1b3c1ab', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccd5c7e50>]}
+2022-06-26 17:21:44.849118 (Thread-29): sending response (<Response 9155 bytes [200 OK]>) to 10.0.5.232
+2022-06-26 23:57:03.899719 (MainThread): Running with dbt=1.0.8
+2022-06-26 23:57:03.997163 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt_rpc.task.server.RPCServerTask'>, debug=None, defer=None, exclude=None, fail_fast=None, host='0.0.0.0', log_cache_events=False, log_format=None, models=None, partial_parse=True, port=8580, printer_width=None, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, send_anonymous_usage_stats=None, single_threaded=False, state=None, static_parser=None, target=None, threads=None, use_colors=None, use_experimental_parser=None, vars='{}', version_check=None, warn_error=None, which='rpc', write_json=None)
+2022-06-26 23:57:04.004228 (MainThread): Tracking: tracking
+2022-06-26 23:57:04.025020 (MainThread): 23:57:04  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb781a79760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c09fc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c09f0d0>]}
+2022-06-26 23:57:04.025384 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2022-06-26 23:57:04.025673 (MainThread): Supported methods: ['build', 'cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'source-freshness', 'status', 'test']
+2022-06-26 23:57:04.025871 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2022-06-26 23:57:04.077358 (Thread-12): 23:57:04  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-26 23:57:04.077546 (Thread-12): 23:57:04  Partial parsing enabled, no changes found, skipping parsing
+2022-06-26 23:57:04.083411 (Thread-12): 23:57:04  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb764449f10>]}
+2022-06-26 23:57:08.085939 (Thread-13): handling status request
+2022-06-26 23:57:08.086438 (Thread-13): 23:57:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c1040d0>]}
+2022-06-26 23:57:08.087033 (Thread-13): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:57:08.105212 (Thread-14): handling status request
+2022-06-26 23:57:08.105523 (Thread-14): 23:57:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb7644b6f70>]}
+2022-06-26 23:57:08.105969 (Thread-14): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:57:08.380449 (Thread-15): handling status request
+2022-06-26 23:57:08.380848 (Thread-15): 23:57:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb7644b6eb0>]}
+2022-06-26 23:57:08.381343 (Thread-15): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:57:08.423792 (Thread-16): handling ps request
+2022-06-26 23:57:08.424106 (Thread-16): 23:57:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb7644b67f0>]}
+2022-06-26 23:57:08.424525 (Thread-16): sending response (<Response 105 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:57:11.199971 (Thread-17): handling status request
+2022-06-26 23:57:11.200429 (Thread-17): 23:57:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c1045e0>]}
+2022-06-26 23:57:11.200899 (Thread-17): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:58:42.959664 (Thread-18): handling status request
+2022-06-26 23:58:42.960098 (Thread-18): 23:58:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c09fa30>]}
+2022-06-26 23:58:42.960579 (Thread-18): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:58:43.101600 (Thread-19): handling status request
+2022-06-26 23:58:43.102042 (Thread-19): 23:58:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c1047c0>]}
+2022-06-26 23:58:43.102508 (Thread-19): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:59:03.490673 (Thread-20): handling status request
+2022-06-26 23:59:03.491099 (Thread-20): 23:59:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c09fbb0>]}
+2022-06-26 23:59:03.491573 (Thread-20): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:59:03.560194 (Thread-21): handling status request
+2022-06-26 23:59:03.560576 (Thread-21): 23:59:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c09f4f0>]}
+2022-06-26 23:59:03.561061 (Thread-21): sending response (<Response 1241 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:59:21.323687 (Thread-22): handling status request
+2022-06-26 23:59:21.324142 (Thread-22): 23:59:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c0d5070>]}
+2022-06-26 23:59:21.324611 (Thread-22): sending response (<Response 1219 bytes [200 OK]>) to 10.0.38.61
+2022-06-26 23:59:21.330770 (Thread-23): handling list request
+2022-06-26 23:59:21.331039 (Thread-23): 23:59:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c0d53d0>]}
+2022-06-26 23:59:21.354962 (Thread-23): 23:59:21  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b4c4f3cb-28d6-4fd2-adf4-5e8243f1c268', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c1043d0>]}
+2022-06-26 23:59:21.355252 (Thread-23): 23:59:21  Found 2 models, 4 tests, 0 snapshots, 0 analyses, 191 macros, 0 operations, 0 seed files, 0 sources, 0 exposures, 0 metrics
+2022-06-26 23:59:21.355776 (Thread-23): 23:59:21  The selection criterion '+README.md+' does not match any nodes
+2022-06-26 23:59:21.355906 (Thread-23): 23:59:21  No nodes selected!
+2022-06-26 23:59:21.357409 (Thread-23): sending response (<Response 1918 bytes [200 OK]>) to 10.0.38.61
+2022-06-27 00:00:55.986943 (MainThread): 00:00:55  Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c09fc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb781a79760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb77c0d55e0>]}
+2022-06-27 00:00:55.988388 (MainThread): 00:00:55  Flushing usage events
+2022-06-27 00:00:56.012797 (MainThread): Runtime Error
+  at path ['name']: 'loadsmart-challenge' does not match '^[^\\d\\W]\\w*$'
+
+Error encountered in /usr/src/develop/user-95081/environment-99264/repository-79672/dbt_project.yml
