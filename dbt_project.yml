@@ -34,5 +34,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   loadsmart_challenge:
     # Applies to all files under models/example/
-    example:
-      materialized: view
+    staging:
+      internal:
+        materialized: view
+
+      external:
+        materialized: view

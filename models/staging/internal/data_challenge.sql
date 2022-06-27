@@ -1,1 +1,0 @@
-select * from {{ source('internal', 'data_challenge') }}
