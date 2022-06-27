@@ -9577,3 +9577,55 @@ limit 500
 2022-06-27 02:53:13.870773 (Thread-761): handling status request
 2022-06-27 02:53:13.871245 (Thread-761): 02:53:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0ccf970>]}
 2022-06-27 02:53:13.871744 (Thread-761): sending response (<Response 1591 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:53:16.062708 (Thread-762): 02:53:16  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-06-27 02:53:16.062923 (Thread-762): 02:53:16  Partial parsing enabled, no changes found, skipping parsing
+2022-06-27 02:53:16.068484 (Thread-762): 02:53:16  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0b3eee0>]}
+2022-06-27 02:53:16.868582 (Thread-763): handling status request
+2022-06-27 02:53:16.868990 (Thread-763): 02:53:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0b3cee0>]}
+2022-06-27 02:53:16.869465 (Thread-763): sending response (<Response 1244 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:53:16.890176 (Thread-764): handling status request
+2022-06-27 02:53:16.890512 (Thread-764): 02:53:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0b3cdf0>]}
+2022-06-27 02:53:16.890938 (Thread-764): sending response (<Response 1244 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:54:24.158008 (Thread-765): 02:54:24  Partial parsing enabled: 1 files deleted, 1 files added, 0 files changed.
+2022-06-27 02:54:24.158850 (Thread-765): 02:54:24  Partial parsing: added file: loadsmart_challenge://models/staging/external/dim_us_cities.sql
+2022-06-27 02:54:24.159128 (Thread-765): 02:54:24  Partial parsing: deleted file: loadsmart_challenge://models/staging/external/stg_us_cities.sql
+2022-06-27 02:54:24.163017 (Thread-765): 02:54:24  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 02:54:24.165726 (Thread-765): 02:54:24  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 02:54:24.168216 (Thread-765): 02:54:24  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 02:54:24.877998 (Thread-766): handling status request
+2022-06-27 02:54:24.878427 (Thread-766): 02:54:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0d9c5e0>]}
+2022-06-27 02:54:24.878951 (Thread-766): sending response (<Response 2414 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:54:24.947206 (Thread-767): handling status request
+2022-06-27 02:54:24.947559 (Thread-767): 02:54:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0ad3f40>]}
+2022-06-27 02:54:24.948051 (Thread-767): sending response (<Response 2414 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:54:51.916782 (Thread-768): 02:54:51  Partial parsing enabled: 1 files deleted, 1 files added, 1 files changed.
+2022-06-27 02:54:51.917122 (Thread-768): 02:54:51  Partial parsing: added file: loadsmart_challenge://models/staging/external/dim_us_cities.sql
+2022-06-27 02:54:51.917410 (Thread-768): 02:54:51  Partial parsing: deleted file: loadsmart_challenge://models/staging/external/stg_us_cities.sql
+2022-06-27 02:54:51.917594 (Thread-768): 02:54:51  Partial parsing: updated file: loadsmart_challenge://models/staging/internal/stg_join_lat_long_from.sql
+2022-06-27 02:54:51.921571 (Thread-768): 02:54:51  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 02:54:51.924233 (Thread-768): 02:54:51  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 02:54:51.926757 (Thread-768): 02:54:51  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 02:54:52.756437 (Thread-769): handling status request
+2022-06-27 02:54:52.756861 (Thread-769): 02:54:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0ae7be0>]}
+2022-06-27 02:54:52.757382 (Thread-769): sending response (<Response 2751 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:54:52.774376 (Thread-770): handling status request
+2022-06-27 02:54:52.774651 (Thread-770): 02:54:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0ae7b50>]}
+2022-06-27 02:54:52.775070 (Thread-770): sending response (<Response 2751 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:55:10.699784 (Thread-771): 02:55:10  Partial parsing enabled: 1 files deleted, 1 files added, 2 files changed.
+2022-06-27 02:55:10.700134 (Thread-771): 02:55:10  Partial parsing: added file: loadsmart_challenge://models/staging/external/dim_us_cities.sql
+2022-06-27 02:55:10.700401 (Thread-771): 02:55:10  Partial parsing: deleted file: loadsmart_challenge://models/staging/external/stg_us_cities.sql
+2022-06-27 02:55:10.700570 (Thread-771): 02:55:10  Partial parsing: updated file: loadsmart_challenge://models/staging/internal/stg_join_lat_long_to.sql
+2022-06-27 02:55:10.700737 (Thread-771): 02:55:10  Partial parsing: updated file: loadsmart_challenge://models/staging/internal/stg_join_lat_long_from.sql
+2022-06-27 02:55:10.704493 (Thread-771): 02:55:10  1699: static parser successfully parsed staging/external/dim_us_cities.sql
+2022-06-27 02:55:10.707080 (Thread-771): 02:55:10  1699: static parser successfully parsed staging/internal/stg_join_lat_long_from.sql
+2022-06-27 02:55:10.709690 (Thread-771): 02:55:10  1699: static parser successfully parsed staging/internal/stg_join_lat_long_to.sql
+2022-06-27 02:55:10.757629 (Thread-771): 02:55:10  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0aea460>]}
+2022-06-27 02:55:11.479111 (Thread-772): handling status request
+2022-06-27 02:55:11.479569 (Thread-772): 02:55:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0b3c3a0>]}
+2022-06-27 02:55:11.480122 (Thread-772): sending response (<Response 3265 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:55:11.593826 (Thread-773): handling status request
+2022-06-27 02:55:11.594235 (Thread-773): 02:55:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0b3c1c0>]}
+2022-06-27 02:55:11.594763 (Thread-773): sending response (<Response 3265 bytes [200 OK]>) to 10.0.34.124
+2022-06-27 02:55:51.507271 (Thread-774): handling status request
+2022-06-27 02:55:51.507673 (Thread-774): 02:55:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '40593f1f-2ad6-4e43-87a7-44d40a39ccf9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f79b0d15ee0>]}
+2022-06-27 02:55:51.508193 (Thread-774): sending response (<Response 3265 bytes [200 OK]>) to 10.0.34.124
