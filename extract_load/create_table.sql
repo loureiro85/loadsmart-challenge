@@ -45,13 +45,20 @@ CREATE TABLE internal.data_challenge(
   PRIMARY KEY(loadsmart_id)
 );
 
+DROP TABLE external.calendar CASCADE;
+
 CREATE TABLE external.calendar(
+  date_id BIGINT,
   date date,
-  day integer,
+  year integer,
+  MONTH integer,
+  month_name varchar,
+  weekday integer,
+  weekday_name varchar,
+  month_day integer,
   week integer,
-  month integer,
   quarter integer,
   semester integer,
-  year integer,
-  PRIMARY KEY(date)
+  YEAR_MONTH varchar,
+  PRIMARY KEY(date_id)
 );

@@ -9,13 +9,7 @@ copy external.us_cities(
     LONGITUDE
 )
 FROM
-    's3://loadsmart-challenge-loureiro85/us_cities.csv'
-    iam_role 'arn:aws:iam::123462031101:role/dbt-s3-redshift-loadsmart'
-    region 'us-east-1'
-    delimiter ','
-    ignoreheader 1
-    acceptinvchars;
-
+    's3://loadsmart-challenge-loureiro85/us_cities.csv' iam_role 'arn:aws:iam::123462031101:role/dbt-s3-redshift-loadsmart' region 'us-east-1' delimiter ',' ignoreheader 1 acceptinvchars;
 
 -- DataChallenge.csv
 copy internal.data_challenge(
@@ -51,32 +45,22 @@ copy internal.data_challenge(
     load_was_cancelled
 )
 FROM
-    's3://loadsmart-challenge-loureiro85/DataChallenge.csv'
-    iam_role 'arn:aws:iam::123462031101:role/dbt-s3-redshift-loadsmart'
-    region 'us-east-1'
-    delimiter ','
-    ignoreheader 1
-    dateformat AS 'auto'
-    timeformat AS 'auto'
-    trimblanks
-    removequotes
-    acceptinvchars;
-
+    's3://loadsmart-challenge-loureiro85/DataChallenge.csv' iam_role 'arn:aws:iam::123462031101:role/dbt-s3-redshift-loadsmart' region 'us-east-1' delimiter ',' ignoreheader 1 dateformat AS 'auto' timeformat AS 'auto' trimblanks removequotes acceptinvchars;
 
 -- date.csv
 copy external.calendar(
+    date_id,
     date,
-    day,
-    week,
+    year,
     month,
+    month_name,
+    weekday,
+    weekday_name,
+    month_day,
+    week,
     quarter,
     semester,
-    year
+    year_month
 )
 FROM
-    's3://loadsmart-challenge-loureiro85/calendar.csv'
-    iam_role 'arn:aws:iam::123462031101:role/dbt-s3-redshift-loadsmart'
-    region 'us-east-1'
-    delimiter ','
-    ignoreheader 1
-    acceptinvchars;
+    's3://loadsmart-challenge-loureiro85/calendar.csv' iam_role 'arn:aws:iam::123462031101:role/dbt-s3-redshift-loadsmart' region 'us-east-1' delimiter ',' ignoreheader 1 acceptinvchars;
