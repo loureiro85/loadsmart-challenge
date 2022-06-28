@@ -27,9 +27,9 @@ mileage,
 round(pnl/mileage, 3) as pnl_per_mile
 
 
-from {{ ref('stg_challenge_no_dups') }}
+from {{ ref('fct_pre_processed') }}
 join {{ ref('dim_calendar') }} 
-on {{ ref('dim_calendar') }}.date={{ ref('stg_challenge_no_dups') }}.pickup_date
+on {{ ref('dim_calendar') }}.date={{ ref('fct_pre_processed') }}.pickup_date
 
 where book_price > 0
 

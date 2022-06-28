@@ -5,5 +5,5 @@ split_part(carrier_name, 'Carrier ', 2)::integer as carrier_id,
 lane as lane_id,
 *
 
-from {{ ref('stg_challenge_no_dups') }}
+from {{ ref('fct_pre_processed') }}
 limit 10

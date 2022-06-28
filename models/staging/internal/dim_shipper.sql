@@ -3,7 +3,7 @@ select
     shipper_name
 from (
     select distinct shipper_name
-    from {{ ref('stg_challenge_no_dups') }}
+    from {{ ref('fct_pre_processed') }}
     where shipper_name != ' '
     )
 order by shipper_id

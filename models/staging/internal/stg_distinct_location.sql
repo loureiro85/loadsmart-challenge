@@ -1,7 +1,7 @@
-select distinct(lane_from) as location_id
+select distinct(pickup_location) as location_id
 from {{ ref('dim_lane') }}
 union
-select distinct(lane_to)
+select distinct(delivery_location)
 from {{ ref('dim_lane') }}
 
 order by location_id    

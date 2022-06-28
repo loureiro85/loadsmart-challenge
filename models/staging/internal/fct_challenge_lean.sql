@@ -42,5 +42,5 @@ delivery_date - delivery_appointment_time as delivery_delay
 -- mileage,
 
 
-from {{ ref('stg_challenge_no_dups') }}
+from {{ ref('fct_pre_processed') }}
 limit 50
