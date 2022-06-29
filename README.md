@@ -1,33 +1,5 @@
-# loadsmart-challenge
-Loadsmart - DENB - Analytics Engineer - 2002 Challenge
-
-
-
-# 06-29
-
-README.md with the steps necessary to test your proposed solution:
-- [GitHub](https://github.com/loureiro85/loadsmart-challenge)
-- Check dashboard on [link]
-- DataWarehouse screenshot
-
-Disclaimer:
-- First version of the ELT process and dashboard. There surely is room for improvement. Feedback is welcomed.
-
-Next steps:
-- Collect feedback from Loadsmart experts
-  - Analytics Engineer - To validate and learn best practices
-  - Data Analyst - To understand value
-  - Data Engineer - To understand data infrastructure and available data
-
-- Apply Loadsmart best practices, regarding:
-  - project structure
-  - database schema
-  - naming
-  - testing
-  - commit
-  - documentation
-  - analytics dataset
-  - dashboard connection
+# Analytics Engineer Challenge
+Loadsmart - DENB - Analytics Engineer - Challenge
 
 # Challenge Process
 Challenge Process:
@@ -46,6 +18,7 @@ Data understanding was based on exploring the provided CSV file with Jupyter Not
 - Create database schemas, namely `internal` and `external` (`extract_load/create_schemas.sql`)
 - Create tables (`extract_load/create_table.sql`)
 - Copy data from CSV in S3 to tables in Redshift (`extract_load/copy_from_s3.sql`)
+- Add inbound rules to security group to allow Redshift Access to Google Data Studio
 
 ## 3. Data Modeling
 Data was modeled with DBT source and model files (`.sql` and `.yml` in `/models`).
@@ -55,6 +28,7 @@ Additional sources were added, namely:
 - calendar.csv
 
 ## 4. Data Visualization
+[Dashboard link]()
 Analyzes were created based on dimensions.
 The following analyzes were made:
 - Pickup State
@@ -64,3 +38,49 @@ The following analyzes were made:
 - Time
 - Equipment
 - Carrier Rating
+
+
+# Next steps
+This is the first version of the ELT process and dashboard.
+There is certainly room for improvement.
+All feedback is welcomed.
+
+Next steps:
+- Collect feedback from Loadsmart experts
+  - Analytics Engineer - To validate, improve, and learn best practices
+  - Data Analyst - To understand value
+  - Data Engineer - To understand data infrastructure and available data
+
+- Clean up analytics tables that source the dashboard
+
+- Apply Loadsmart best practices, regarding:
+  - project structure
+  - database schema
+  - naming
+  - testing
+  - commit
+  - documentation
+  - analytics dataset
+  - dashboard connection
+
+- Experiment DBT CLI
+
+- Study DBT seeds and snapshots
+
+# References
+- [dbt Fundamentals course](https://courses.getdbt.com/courses/fundamentals)
+- [us_cities.csv](https://raw.githubusercontent.com/kelvins/US-Cities-Database/main/csv/us_cities.csv)
+- [geotargets-2022-06-02.csv](https://raw.githubusercontent.com/kelvins/US-Cities-Database/main/csv/us_cities.csv)
+
+# Final thoughts
+I had a great time working on this challenge.
+I learned a lot from it and I feel every minute working on it was worth it.
+Learning DBT was in by backlog study list. I`m glad it came to my sprint.
+DBT enables shifting from the ETL to ELT paradigm, due to DBT and Redshift cloud connection.
+DBT tests helped me to identify and fix non unique keys in the city_state column of US cities.
+
+Also, I'm a huge fan of YAML files as they bridge the gap between humans and computers.
+It was pleasant to notice how easily tests and documentation are created in DBT with YAML files.
+
+Thank you for this opportunity,
+Gui
