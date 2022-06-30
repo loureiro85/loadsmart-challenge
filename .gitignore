@@ -130,3 +130,5 @@ dmypy.json
 stack_output.csv
 credentials.yaml
 sandbox.sql
+/_ignored
+/sandbox
