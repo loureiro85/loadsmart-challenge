@@ -18,6 +18,7 @@ Data understanding was based on exploring the provided CSV file with Jupyter Not
 - Create database schemas, namely `internal` and `external` (`extract_load/create_schemas.sql`)
 - Create tables (`extract_load/create_table.sql`)
 - Copy data from CSV in S3 to tables in Redshift (`extract_load/copy_from_s3.sql`)
+- At this point, a Redshift instance was created and data was loaded to it from S3.
 - Add inbound rules to security group to allow Redshift Access to Google Data Studio
 
 ## 3. Data Modeling
@@ -43,7 +44,7 @@ The following analyzes were made:
 # Next steps
 This is the first version of the ELT process and dashboard.
 There is certainly room for improvement.
-All feedback is welcomed.
+I appreciate all feedback.
 
 Next steps:
 - Collect feedback from Loadsmart experts
@@ -78,9 +79,11 @@ I learned a lot from it and I feel every minute working on it was worth it.
 Learning DBT was in by backlog study list. I`m glad it came to my sprint.
 DBT enables shifting from the ETL to ELT paradigm, due to DBT and Redshift cloud connection.
 DBT tests helped me to identify and fix non unique keys in the city_state column of US cities.
+DBT lineage functionality helped to refactor models as it indicated dependencies among them.
 
 Also, I'm a huge fan of YAML files as they bridge the gap between humans and computers.
 It was pleasant to notice how easily tests and documentation are created in DBT with YAML files.
 
-Thank you for this opportunity,
+Thank you for this opportunity.
+I'm looking forward to the next step,
 Gui
