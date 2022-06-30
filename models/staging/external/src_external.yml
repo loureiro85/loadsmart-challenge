@@ -27,3 +27,11 @@ models:
           - unique
           - not_null
 
+  - name: dim_state
+    description: State dimension table.
+    columns:
+      - name: state_id
+        description: State code with two characters.
+        tests:
+          - unique
+          - not_null
